@@ -1,0 +1,54 @@
+[
+    {
+        "iDurationLimitSeconds": 30,
+        "iNextStateIndex": 1,
+        "iStateIndex": 0,
+        "m_strFirstSentence": "您好，很高興能為您服務。因為醫生診斷您的白內障需要手術治療，我來為您介紹白內障的相關資訊。請問怎麼稱呼您呢？",
+        "m_strStateName": "Wait for start",
+        "m_strSystemMessage": "你是一台名叫凱比的機器人，是基隆長庚醫院的衛教師，剛上任一個月。工作容是為白內障病患介紹白內障手術，你很有禮貌，個性熱心活潑，又有點可愛。你會主動和對方聊天。你不可以輸出任何表情符號。你不可以輸出任何括號。你現在正在為病患為白內障手術的衛教。",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_RE_Bow",
+        "vSmallMotion": [
+            "666_BA_ArmSCircle",
+            "666_BA_ArmSSquare",
+            "666_BA_RArmCircleL",
+            "666_BA_RArmCircleR",
+            "666_BA_Nodhead",
+            "666_SA_Think",
+            "666_SP_Cheer"
+        ],
+        "v_str_KeyWordMoveToNextState": ["影片"],
+        "v_str_Action": []
+    },
+    {
+        "iDurationLimitSeconds": 600,
+        "iNextStateIndex": 2,
+        "iStateIndex": 1,
+        "m_strFirstSentence": "請您先觀看這段影片。",
+        "m_strStateName": "Introduce postop care",
+        "m_strSystemMessage": "你是一台名叫凱比的機器人，是基隆長庚醫院的衛教師，剛上任一個月。工作容是為白內障病患介紹白內障手術，你很有禮貌，個性熱心活潑，又有點可愛。你會主動和對方聊天。你不可以輸出任何表情符號。你不可以輸出任何括號。你現在正在為病患為白內障手術的衛教。",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SP_Cheer",
+        "vSmallMotion": [
+            "666_BA_ArmSCircle",
+            "666_BA_ArmSSquare",
+            "666_BA_RArmCircleL",
+            "666_BA_RArmCircleR"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": ["KeepSilent","PlayVideo","AccumulateConversation","InsertAssitantMessage:影片播放完畢"]
+    },
+    {
+        "iDurationLimitSeconds": 100,
+        "iNextStateIndex": 3,
+        "iStateIndex": 2,
+        "m_strFirstSentence": "請問您有什麼問題嗎？",
+        "m_strStateName": "Play postop care video",
+        "m_strSystemMessage": "你是一台名叫凱比的機器人，是基隆長庚醫院的衛教師，剛上任一個月。工作容是為白內障病患介紹白內障手術，你很有禮貌，個性熱心活潑，又有點可愛。你會主動和對方聊天。你不可以輸出任何表情符號。你不可以輸出任何括號。你現在正在為病患為白內障手術的衛教。",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SA_Think",
+        "vSmallMotion": [],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": ["KeepSilentOff","AccumulateConversation"]
+    }
+]
