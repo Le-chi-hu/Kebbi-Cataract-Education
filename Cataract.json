@@ -50,5 +50,71 @@
         "vSmallMotion": [],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["KeepSilentOff","AccumulateConversation"]
+    },
+    {
+        "iDurationLimitSeconds": 5,
+        "iNextStateIndex": 4,
+        "iStateIndex": 3,
+        "m_strFirstSentence": "那我們現在開始幫您複習術前衛教的重點",
+        "m_strStateName": "Play postop care video",
+        "m_strSystemMessage": "你是一台名叫凱比的機器人，是基隆長庚醫院的衛教師，剛上任一個月。工作容是為白內障病患介紹白內障手術，你很有禮貌，個性熱心活潑，又有點可愛。你會主動和對方聊天。你不可以輸出任何表情符號。你不可以輸出任何括號。你現在正在為病患為白內障手術的衛教。",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SA_Think",
+        "vSmallMotion": [],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": ["KeepSilentOff","AccumulateConversation"]
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 5,
+        "iStateIndex": 4,
+        "m_strFirstSentence": "第一點，手術前一天要睡飽，讓身體和眼睛充分休息。第二點，手術當天要帶健保卡和手術相關文件，辦理報到。",
+        "m_strStateName": "Preoperative video reminder Part 1",
+        "m_strSystemMessage": "你是一台名叫凱比的機器人，是基隆長庚醫院的衛教師，剛上任一個月。工作容是為白內障病患介紹白內障手術，你很有禮貌，個性熱心活潑，又有點可愛。你會主動和對方聊天。你不可以輸出任何表情符號。你不可以輸出任何括號。你現在正在為病患為白內障手術的衛教。",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SA_Think",
+        "vSmallMotion": [],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": ["KeepSilentOff","AccumulateConversation"]
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 6,
+        "iStateIndex": 5,
+        "m_strFirstSentence": "第三點，手術當天穿寬鬆好穿脫的衣服，換衣服比較方便也比較舒服。第四點，手術前不要戴任何飾品，像項鍊耳環手鍊都先拿掉，避免影響手術安全。",
+        "m_strStateName": "Preoperative video reminder Part 2",
+        "m_strSystemMessage": "你是一台名叫凱比的機器人，是基隆長庚醫院的衛教師，剛上任一個月。工作容是為白內障病患介紹白內障手術，你很有禮貌，個性熱心活潑，又有點可愛。你會主動和對方聊天。你不可以輸出任何表情符號。你不可以輸出任何括號。你現在正在為病患為白內障手術的衛教。",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SA_Think",
+        "vSmallMotion": [],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": ["KeepSilentOff","AccumulateConversation"]
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 7,
+        "iStateIndex": 6,
+        "m_strFirstSentence": "第五點，手術過程不要碰到已經消毒的地方，碰到就要重新消毒，會增加感染風險還會哈更多時間。第六點，手術結束休息後請到領藥櫃檯，護理人員會給藥並說明術後照護方式。",
+        "m_strStateName": "Preoperative video reminder Part 3",
+        "m_strSystemMessage": "你是一台名叫凱比的機器人，是基隆長庚醫院的衛教師，剛上任一個月。工作容是為白內障病患介紹白內障手術，你很有禮貌，個性熱心活潑，又有點可愛。你會主動和對方聊天。你不可以輸出任何表情符號。你不可以輸出任何括號。你現在正在為病患為白內障手術的衛教。",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SA_Think",
+        "vSmallMotion": [],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": ["KeepSilentOff","AccumulateConversation"]
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 8,
+        "iStateIndex": 7,
+        "m_strFirstSentence": "術前衛教到這邊結束了，您辛苦了",
+        "m_strStateName": "Preoperative finish",
+        "m_strSystemMessage": "你是一台名叫凱比的機器人，是基隆長庚醫院的衛教師，剛上任一個月。工作容是為白內障病患介紹白內障手術，你很有禮貌，個性熱心活潑，又有點可愛。你會主動和對方聊天。你不可以輸出任何表情符號。你不可以輸出任何括號。你現在正在為病患為白內障手術的衛教。",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SA_Think",
+        "vSmallMotion": [],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": ["KeepSilentOff","AccumulateConversation"]
     }
+    
 ]
