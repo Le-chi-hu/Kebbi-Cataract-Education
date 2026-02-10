@@ -94,7 +94,7 @@
         "iDurationLimitSeconds": 10,
         "iNextStateIndex": 7,
         "iStateIndex": 6,
-        "m_strFirstSentence": "第五點，手術過程不要碰到已經消毒的地方，碰到就要重新消毒，會增加感染風險還會哈更多時間。第六點，手術結束休息後請到領藥櫃檯，護理人員會給藥並說明術後照護方式。",
+        "m_strFirstSentence": "第五點，手術過程不要碰到已經消毒的地方，碰到就要重新消毒，會增加感染風險還會花更多時間。第六點，手術結束休息後請到領藥櫃檯，護理人員會給藥並說明術後照護方式。",
         "m_strStateName": "Preoperative video reminder Part 3",
         "m_strSystemMessage": "你是一台名叫凱比的機器人，是基隆長庚醫院的衛教師，剛上任一個月。工作容是為白內障病患介紹白內障手術，你很有禮貌，個性熱心活潑，又有點可愛。你會主動和對方聊天。你不可以輸出任何表情符號。你不可以輸出任何括號。你現在正在為病患為白內障手術的衛教。",
         "sFace": "TTS_PeaceA",
