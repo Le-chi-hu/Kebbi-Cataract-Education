@@ -82,8 +82,46 @@
         "v_str_Action": ["AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 6,
+        "iDurationLimitSeconds": 38,
         "iNextStateIndex": 5,
+        "iStateIndex": 4,
+        "m_strFirstSentence": "白內障手術主要有兩種方式，一種是傳統手術，一種是「飛秒雷射輔助手術」。飛秒雷射可以幫忙完成一些比較精細的步驟，例如切口和水晶體的前處理，但兩種手術最後拿掉白內障、放人工水晶體的原理是相同的。雖然飛秒雷射的精準度較高，但是健保不給付，需自費費用。",
+        "m_strStateName": "Laser comparison",
+        "m_strSystemMessage": "",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_BA_ArmSSquare",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_BA_ArmSCircle",
+            "666_BA_ArmSSquare",
+            "666_BA_RArmCircleL",
+            "666_BA_RArmCircleR"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": ["AccumulateConversation"]
+    },
+    {
+        "iDurationLimitSeconds": 38,
+        "iNextStateIndex": 6,
+        "iStateIndex": 5,
+        "m_strFirstSentence": "在手術前要先決定是否要保留近視度數，生活中看物體的距離大致可分成：遠距離開車、戶外活動、中距離使用電腦、煮飯，約50～75公分、近距離如閱讀、滑手機，約30公分。做完白內障手術，眼睛不會再有調節力，而是透過放入水晶體的度數，來決定能看清楚的距離。如果是放單焦點的人工水晶體，會以單個焦段最清楚，另外兩種距離則是需要眼鏡輔助。選擇多焦點水晶體則無需戴眼鏡，可以適應不同距離，但仍要留意是否有夜間眩光情況，以及眼睛無其他疾病，才能最佳發揮水晶體功能。",
+        "m_strStateName": "keep nearsightedness or not",
+        "m_strSystemMessage": "",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_BA_ArmSSquare",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_BA_ArmSCircle",
+            "666_BA_ArmSSquare",
+            "666_BA_RArmCircleL",
+            "666_BA_RArmCircleR"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": ["AccumulateConversation"]
+    },
+    {
+        "iDurationLimitSeconds": 7,
+        "iNextStateIndex": 6,
         "iStateIndex": 4,
         "m_strFirstSentence": "請您先觀看這段術前衛教影片。",
         "m_strStateName": "Introduce preop care",
@@ -102,8 +140,8 @@
     },    
     {
         "iDurationLimitSeconds": 99,
-        "iNextStateIndex": 6,
-        "iStateIndex": 5,
+        "iNextStateIndex": 8,
+        "iStateIndex": 7,
         "m_strFirstSentence": "",
         "m_strStateName": "Introduce preop care",
         "m_strSystemMessage": "",
@@ -121,8 +159,8 @@
     },
     {
         "iDurationLimitSeconds": 100,
-        "iNextStateIndex": 7,
-        "iStateIndex": 6,
+        "iNextStateIndex": 9,
+        "iStateIndex": 8,
         "m_strFirstSentence": "請問您有什麼問題嗎？",
         "m_strStateName": "Question about preop care",
         "m_strSystemMessage": "",
@@ -134,8 +172,8 @@
         "v_str_Action": ["KeepSilentOff","AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 6,
-        "iNextStateIndex": 8,
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 9,
         "iStateIndex": 7,
         "m_strFirstSentence": "請您觀看這段術後衛教影片。",
         "m_strStateName": "Play postop health care video",
@@ -154,8 +192,8 @@
     },
     {
         "iDurationLimitSeconds": 129,
-        "iNextStateIndex": 9,
-        "iStateIndex": 8,
+        "iNextStateIndex": 11,
+        "iStateIndex": 10,
         "m_strFirstSentence": "",
         "m_strStateName": "Play postop health care video",
         "m_strSystemMessage": "",
@@ -173,8 +211,8 @@
     },
     {
         "iDurationLimitSeconds": 100,
-        "iNextStateIndex": 10,
-        "iStateIndex": 9,
+        "iNextStateIndex": 12,
+        "iStateIndex": 11,
         "m_strFirstSentence": "請問您有什麼問題嗎？",
         "m_strStateName": "Q&A",
         "m_strSystemMessage": "",
@@ -187,8 +225,8 @@
     },
     {
         "iDurationLimitSeconds": 100,
-        "iNextStateIndex": 11,
-        "iStateIndex": 10,
+        "iNextStateIndex": 13,
+        "iStateIndex": 12,
         "m_strFirstSentence": "好的，那我們今天衛教就作到這裏，祝您開刀順利，早日康復！如果有任何問題，隨時可以來找我喔！再見！",
         "m_strStateName": "Ending and Goodbye",
         "m_strSystemMessage": "",
@@ -201,8 +239,8 @@
     },
     {
         "iDurationLimitSeconds": 100,
-        "iNextStateIndex": 11,
-        "iStateIndex": 11,
+        "iNextStateIndex": 14,
+        "iStateIndex": 13,
         "m_strFirstSentence": "再見！",
         "m_strStateName": "Goodbye",
         "m_strSystemMessage": "",
