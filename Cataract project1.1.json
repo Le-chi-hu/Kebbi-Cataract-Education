@@ -47,7 +47,7 @@
         "iDurationLimitSeconds": 10,
         "iNextStateIndex": 3,
         "iStateIndex": 2,
-        "m_strFirstSentence": "剛才醫生檢查過，確認您有白內障。您最近看東西是不是覺得霧霧的，好像隔著一層毛玻璃，還是晚上看燈光會覺得很散開？",
+        "m_strFirstSentence": "{PatientName}{PatientTitle}您好，剛才醫生檢查過，確認您有白內障。您最近看東西是不是覺得霧霧的，好像隔著一層毛玻璃，還是晚上看燈光會覺得很散開？",
         "m_strStateName": "Greeting 2",
         "m_strSystemMessage": "",
         "sFace": "TTS_PeaceB",
@@ -121,7 +121,7 @@
     },
    
   {
-        "iDurationLimitSeconds": 450,
+        "iDurationLimitSeconds": 38,
         "iNextStateIndex": 7,
         "iStateIndex": 6,
         "m_strFirstSentence": "我來幫您整理不同水晶體的差別。簡單來說，人工水晶體就像買眼鏡：單焦點只能選擇看遠『或』看近，多焦點和三焦點則是把老花眼鏡直接裝進眼睛裡。延伸焦段則是讓您看中間距離最自然。這幾種功能在生活習慣和費用上都有很大的不同喔。",
@@ -139,10 +139,10 @@
         "v_str_Action": ["AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 300,
+        "iDurationLimitSeconds": 100,
         "iNextStateIndex": 8,
         "iStateIndex": 7,
-        "m_strFirstSentence": "您可以根據平時最常做的事情來選擇。如果您常下廚、打牌或看電腦，延伸焦段能提供最舒服的視覺品質；如果您希望看手機、看電腦都不用找眼鏡，三焦點或多焦點會更便利。此外，常開夜車的人，建議選非球面或延伸焦段，因為它們能減少晚上的眩光，看路更安全。聽完這些，您心裡有比較中意的選擇了嗎？接著請看術前衛教影片，了解手術準備。",
+        "m_strFirstSentence": "您可以根據平時最常做的事情來選擇。如果您常下廚、打牌或看電腦，延伸焦段能提供最舒服的視覺品質；如果您希望看手機、看電腦都不用找眼鏡，三焦點或多焦點會更便利。此外，常開夜車的人，建議選非球面或延伸焦段，因為它們能減少晚上的眩光，看路更安全。聽完這些，您心裡有比較中意的選擇了嗎？",
         "m_strStateName": "Lifestyle Selection Guide",
         "m_strSystemMessage": "",
         "sFace": "TTS_PeaceB",
@@ -156,7 +156,7 @@
         "v_str_Action": ["AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 100,
+        "iDurationLimitSeconds": 10,
         "iNextStateIndex": 9,
         "iStateIndex": 8,
         "m_strFirstSentence": "接下來我們來玩個小測驗，確認您對水晶體功能的了解喔。",
@@ -229,7 +229,7 @@
         "iDurationLimitSeconds": 7,
         "iNextStateIndex": 14,
         "iStateIndex": 13,
-        "m_strFirstSentence": "請您先觀看這段術前衛教影片。",
+        "m_strFirstSentence": "接下來,請您先觀看這段術前衛教影片。",
         "m_strStateName": "Introduce preop care",
         "m_strSystemMessage": "",
         "sFace": "TTS_PeaceB",
