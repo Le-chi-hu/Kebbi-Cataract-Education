@@ -170,7 +170,7 @@
         "v_str_Action": ["KeepSilentOff", "AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 60,
+        "iDurationLimitSeconds": 10,
         "iNextStateIndex": 10,
         "iStateIndex": 9,
         "m_strFirstSentence": "第一題：如果您選擇『單焦點』水晶體，在看遠處很清楚的情況下，看手機或看書需不需要配戴老花眼鏡呢？",
@@ -184,7 +184,7 @@
         "v_str_Action": ["AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 60,
+        "iDurationLimitSeconds": 10,
         "iNextStateIndex": 11,
         "iStateIndex": 10,
         "m_strFirstSentence": "第二題：如果您平時很喜歡煮飯或用電腦，這屬於『中距離』。請問哪種水晶體在看中距離時比較自然，能提供連續的視力呢？",
@@ -198,7 +198,7 @@
         "v_str_Action": ["AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 60,
+        "iDurationLimitSeconds": 10,
         "iNextStateIndex": 12,
         "iStateIndex": 11,
         "m_strFirstSentence": "第三題：請問如果您希望開刀後，不管是開車、看電腦還是看手機，『大部分時間』都不想戴眼鏡，哪一種水晶體最適合您呢？",
@@ -278,7 +278,7 @@
         "v_str_Action": ["AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 60,
+        "iDurationLimitSeconds": 10,
         "iNextStateIndex": 17,
         "iStateIndex": 16,
         "m_strFirstSentence": "第一題：手術前一天最重要的準備是什麼？",
@@ -292,7 +292,7 @@
         "v_str_Action": ["AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 60,
+        "iDurationLimitSeconds": 10,
         "iNextStateIndex": 18,
         "iStateIndex": 17,
         "m_strFirstSentence": "第二題：手術當天要記得帶哪些重要的東西來辦理手續？",
@@ -306,7 +306,7 @@
         "v_str_Action": ["AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 60,
+        "iDurationLimitSeconds": 10,
         "iNextStateIndex": 19,
         "iStateIndex": 18,
         "m_strFirstSentence": "第三題：手術當天建議穿什麼樣的衣服比較方便？",
@@ -320,7 +320,7 @@
         "v_str_Action": ["AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 60,
+        "iDurationLimitSeconds": 10,
         "iNextStateIndex": 20,
         "iStateIndex": 19,
         "m_strFirstSentence": "第四題：手術前可以戴項鍊、耳環或手鍊嗎？",
@@ -334,7 +334,7 @@
         "v_str_Action": ["AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 60,
+        "iDurationLimitSeconds": 10,
         "iNextStateIndex": 21,
         "iStateIndex": 20,
         "m_strFirstSentence": "第五題：手術結束後通常要去哪裡領藥，並聽護理人員說明照護注意事項？",
@@ -428,7 +428,7 @@
         "v_str_Action": ["AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 60,
+        "iDurationLimitSeconds": 10,
         "iNextStateIndex": 27,
         "iStateIndex": 26,
         "m_strFirstSentence": "第一題：手術當天眼睛被紗布覆蓋時，需要立刻點眼藥水嗎？",
@@ -442,7 +442,7 @@
         "v_str_Action": ["AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 60,
+        "iDurationLimitSeconds": 10,
         "iNextStateIndex": 28,
         "iStateIndex": 27,
         "m_strFirstSentence": "第二題：隔天回診時，建議要帶什麼來給醫師確認後再開始使用？",
@@ -456,7 +456,7 @@
         "v_str_Action": ["AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 60,
+        "iDurationLimitSeconds": 10,
         "iNextStateIndex": 29,
         "iStateIndex": 28,
         "m_strFirstSentence": "第三題：術後出現畏光、流眼淚、輕微刺痛感，通常算是正常現象嗎？",
@@ -470,7 +470,7 @@
         "v_str_Action": ["AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 60,
+        "iDurationLimitSeconds": 10,
         "iNextStateIndex": 30,
         "iStateIndex": 29,
         "m_strFirstSentence": "第四題：如果術後出現哪些狀況，需要立刻回診或到急診室？請說出一個就好。",
@@ -484,7 +484,7 @@
         "v_str_Action": ["AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 60,
+        "iDurationLimitSeconds": 10,
         "iNextStateIndex": 31,
         "iStateIndex": 30,
         "m_strFirstSentence": "第五題：術後眼睛多久不可以進水，也不建議游泳或做劇烈運動？",
