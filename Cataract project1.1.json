@@ -139,7 +139,7 @@
         "v_str_Action": ["AccumulateConversation"]
     },
     {
-        "iDurationLimitSeconds": 100,
+        "iDurationLimitSeconds": 30,
         "iNextStateIndex": 8,
         "iStateIndex": 7,
         "m_strFirstSentence": "您可以根據平時最常做的事情來選擇。如果您常下廚、打牌或看電腦，延伸焦段能提供最舒服的視覺品質；如果您希望看手機、看電腦都不用找眼鏡，三焦點或多焦點會更便利。此外，常開夜車的人，建議選非球面或延伸焦段，因為它們能減少晚上的眩光，看路更安全。聽完這些，您心裡有比較中意的選擇了嗎？",
