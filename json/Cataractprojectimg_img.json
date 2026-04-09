@@ -425,13 +425,13 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["好", "可以", "準備好了", "準備好"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": ""
+        "sImageFileName": "Images/stat25.png"
     },
     {
         "iDurationLimitSeconds": 10,
         "iNextStateIndex": 27,
         "iStateIndex": 26,
-        "m_strFirstSentence": "第一題：手術當天眼睛被紗布覆蓋時，需要立刻點眼藥水嗎？",
+        "m_strFirstSentence": "第一題：手術當天眼睛被紗布覆蓋時，可以立刻點眼藥水嗎？",
         "m_strStateName": "Postop Quiz Q1 - No Drops With Gauze",
         "sFace": "TTS_PeaceA",
         "sMotion": "666_BA_Nodhead",
