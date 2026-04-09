@@ -359,7 +359,7 @@
         "vSmallMotion": [],
         "v_str_KeyWordMoveToNextState": ["沒有", "沒問題"],
         "v_str_Action": ["KeepSilentOff","AccumulateConversation"],
-        "sImageFileName": "Images/stat21.png"
+        "sImageFileName": "Images/state21.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -373,7 +373,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/stat21.png"
+        "sImageFileName": "Images/state21.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -392,7 +392,7 @@
         ],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": [],
-        "sImageFileName": "Images/stat23.png"
+        "sImageFileName": "Images/state23.png"
     },
     {
         "iDurationLimitSeconds": 129,
@@ -425,7 +425,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["好", "可以", "準備好了", "準備好"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/stat25.png"
+        "sImageFileName": "Images/state25.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -439,7 +439,7 @@
         "vSmallMotion": ["666_SA_Think"],
         "v_str_KeyWordMoveToNextState": ["不需要", "不用", "不必"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/stat26.png"
+        "sImageFileName": "Images/state26.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -453,7 +453,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["藥品", "藥水", "藥膏", "眼罩", "護理包"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/stat27.png"
+        "sImageFileName": "Images/state27.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -467,7 +467,7 @@
         "vSmallMotion": ["666_SA_Think"],
         "v_str_KeyWordMoveToNextState": ["是", "正常", "算正常", "對"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/stat28.png"
+        "sImageFileName": "Images/state28.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -481,7 +481,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["視力突然", "視力減退", "異常疼痛", "眼紅", "大量出血", "分泌物"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/stat29.png"
+        "sImageFileName": "Images/state29.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -495,7 +495,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["一個月", "1個月", "四週", "4週"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/stat30.png"
+        "sImageFileName": "Images/state30.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -509,7 +509,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/stat32.png"
+        "sImageFileName": "Images/state32.png"
     },
     {
         "iDurationLimitSeconds": 100,
@@ -523,7 +523,7 @@
         "vSmallMotion": [],
         "v_str_KeyWordMoveToNextState": ["沒有", "沒問題"],
         "v_str_Action": ["KeepSilentOff","AccumulateConversation"],
-        "sImageFileName": "Images/stat32.png"
+        "sImageFileName": "Images/state32.png"
     },
     {
         "iDurationLimitSeconds": 100,
@@ -537,7 +537,7 @@
         "vSmallMotion": [],
         "v_str_KeyWordMoveToNextState": ["好的", "再見", "謝謝"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/stat33.png"
+        "sImageFileName": "Images/state33.png"
     },
     {
         "iDurationLimitSeconds": 100,
@@ -551,6 +551,6 @@
         "vSmallMotion": [],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/stat34.png"
+        "sImageFileName": "Images/state34.png"
     }
 ]
