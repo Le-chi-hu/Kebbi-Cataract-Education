@@ -203,13 +203,14 @@
         "iStateIndex": 11,
         "m_strFirstSentence": "第三題：請問如果您希望開刀後，不管是開車、看電腦還是看手機，『大部分時間』都不想戴眼鏡，哪一種水晶體最適合您呢？",
         "m_strStateName": "Quiz Q3 - Comprehensive Vision",
+        "m_strSystemMessage": "",
         "sFace": "TTS_PeaceA",
         "sMotion": "666_SP_Cheer",
         "sStateType": "Conversation",
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": ""
+        "v_str_Action": ["AccumulateConversation"]
+        "sImageFileName": "Images/state 11cq3.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -217,13 +218,14 @@
         "iStateIndex": 12,
         "m_strFirstSentence": "太棒了！您對水晶體的差別已經非常清楚了。最後，我們來了解手術前後的注意事項吧。",
         "m_strStateName": "Transition to Postop",
+        "m_strSystemMessage": "",
         "sFace": "TTS_PeaceB",
         "sMotion": "666_SP_Cheer",
         "sStateType": "SaySomething",
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": ""
+        "v_str_Action": ["AccumulateConversation"]
+        "sImageFileName": "Images/state 12.png"
     },
     {
         "iDurationLimitSeconds": 7,
@@ -231,6 +233,7 @@
         "iStateIndex": 13,
         "m_strFirstSentence": "接下來,請您先觀看這段術前衛教影片。",
         "m_strStateName": "Introduce preop care",
+        "m_strSystemMessage": "",
         "sFace": "TTS_PeaceB",
         "sMotion": "666_BA_RHandR03",
         "sStateType": "SaySomething",
@@ -241,8 +244,7 @@
             "666_BA_RArmCircleR"
         ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": ""
+        "v_str_Action": ["AccumulateConversation"]
     },    
     {
         "iDurationLimitSeconds": 99,
@@ -250,6 +252,7 @@
         "iStateIndex": 14,
         "m_strFirstSentence": "",
         "m_strStateName": "Introduce preop care",
+        "m_strSystemMessage": "",
         "sFace": "TTS_PeaceB",
         "sMotion": "666_SP_Cheer",
         "sStateType": "PlayVideo",
@@ -260,8 +263,7 @@
             "666_BA_RArmCircleR"
         ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["KeepSilent","PlayVideo:Videos/Cataract_Preop.mp4","AccumulateConversation","InsertAssitantMessage:第一點：手術前一天請充足睡眠。要讓身體與眼睛在手術前保持良好的休息狀態，這樣有助於手術的順利進行。第二點：請備妥手術相關文件與健保卡。在手術當天，請記得攜帶好健保卡、手術同意書等相關文件，這樣醫護人員能更順利地為您辦理手續，讓整個流程更順暢，也能避免臨時找資料的麻煩。第三點：手術當天請穿著輕便衣物。選擇寬鬆、容易穿脫的服裝，這樣在手術和更換衣物時會更方便，也能讓您感到更舒適。第四點：手術前不得佩戴任何飾品。包括項鍊、耳環、手鍊等，這樣可以避免手術過程中出現不便，也確保手術的安全和順利進行。第五點：手術過程中不得隨意觸碰。在手術過程請不要隨意觸碰已經消毒過的部位，這是因為護士在手術前已經仔細消毒了相關區域，如果您過程中觸碰它，就必需重新消毒，這不僅會增加感染的風險，也會延長手術時間，所以請務必保持耐心避免觸碰。第六點：手術結束後請至領藥櫃檯。請在休息之後前往領藥櫃檯，在那裡護理人員會為您準備術後的藥物，並且詳細叮囑您術後的照護注意事項，讓您清楚接下來如何照顧自己。"],
-        "sImageFileName": ""
+        "v_str_Action": ["KeepSilent","PlayVideo:Videos/Cataract_Preop.mp4","AccumulateConversation","InsertAssitantMessage:第一點：手術前一天請充足睡眠。要讓身體與眼睛在手術前保持良好的休息狀態，這樣有助於手術的順利進行。第二點：請備妥手術相關文件與健保卡。在手術當天，請記得攜帶好健保卡、手術同意書等相關文件，這樣醫護人員能更順利地為您辦理手續，讓整個流程更順暢，也能避免臨時找資料的麻煩。第三點：手術當天請穿著輕便衣物。選擇寬鬆、容易穿脫的服裝，這樣在手術和更換衣物時會更方便，也能讓您感到更舒適。第四點：手術前不得佩戴任何飾品。包括項鍊、耳環、手鍊等，這樣可以避免手術過程中出現不便，也確保手術的安全和順利進行。第五點：手術過程中不得隨意觸碰。在手術過程請不要隨意觸碰已經消毒過的部位，這是因為護士在手術前已經仔細消毒了相關區域，如果您過程中觸碰它，就必需重新消毒，這不僅會增加感染的風險，也會延長手術時間，所以請務必保持耐心避免觸碰。第六點：手術結束後請至領藥櫃檯。請在休息之後前往領藥櫃檯，在那裡護理人員會為您準備術後的藥物，並且詳細叮囑您術後的照護注意事項，讓您清楚接下來如何照顧自己。"]
     },
     {
         "iDurationLimitSeconds": 20,
@@ -269,13 +271,13 @@
         "iStateIndex": 15,
         "m_strFirstSentence": "影片看完了，我們來做五題小問題，確認您記得術前注意事項。準備好了請說好。",
         "m_strStateName": "Preop Quiz Intro",
+        "m_strSystemMessage": "",
         "sFace": "TTS_PeaceA",
         "sMotion": "666_SA_Think",
         "sStateType": "Conversation",
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["好", "可以", "準備好了", "準備好"],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": ""
+        "v_str_Action": ["AccumulateConversation"]
     },
     {
         "iDurationLimitSeconds": 10,
@@ -283,13 +285,14 @@
         "iStateIndex": 16,
         "m_strFirstSentence": "第一題：手術前一天最重要的準備是什麼？",
         "m_strStateName": "Preop Quiz Q1 - Sleep",
+        "m_strSystemMessage": "",
         "sFace": "TTS_PeaceA",
         "sMotion": "666_BA_Nodhead",
         "sStateType": "Conversation",
         "vSmallMotion": ["666_SA_Think"],
         "v_str_KeyWordMoveToNextState": ["充足睡眠", "睡飽", "好好睡", "休息"],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": ""
+        "v_str_Action": ["AccumulateConversation"]
+        "sImageFileName": "Images/state 16bsq1.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -297,13 +300,14 @@
         "iStateIndex": 17,
         "m_strFirstSentence": "第二題：手術當天要記得帶哪些重要的東西來辦理手續？",
         "m_strStateName": "Preop Quiz Q2 - Documents",
+        "m_strSystemMessage": "",
         "sFace": "TTS_PeaceB",
         "sMotion": "666_SA_Think",
         "sStateType": "Conversation",
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["健保卡", "手術同意書", "相關文件", "文件"],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": ""
+        "v_str_Action": ["AccumulateConversation"]
+        "sImageFileName": "Images/state 17bsq2.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -311,13 +315,14 @@
         "iStateIndex": 18,
         "m_strFirstSentence": "第三題：手術當天建議穿什麼樣的衣服比較方便？",
         "m_strStateName": "Preop Quiz Q3 - Clothing",
+        "m_strSystemMessage": "",
         "sFace": "TTS_PeaceA",
         "sMotion": "666_BA_Nodhead",
         "sStateType": "Conversation",
         "vSmallMotion": ["666_SA_Think"],
         "v_str_KeyWordMoveToNextState": ["輕便", "寬鬆", "容易穿脫", "好穿脫"],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": ""
+        "v_str_Action": ["AccumulateConversation"]
+        "sImageFileName": "Images/state 18bsq3.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -325,13 +330,14 @@
         "iStateIndex": 19,
         "m_strFirstSentence": "第四題：手術前可以戴項鍊、耳環或手鍊嗎？",
         "m_strStateName": "Preop Quiz Q4 - No Jewelry",
+        "m_strSystemMessage": "",
         "sFace": "TTS_PeaceB",
         "sMotion": "666_SA_Think",
         "sStateType": "Conversation",
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["不可以", "不能", "不可", "不要"],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": ""
+        "v_str_Action": ["AccumulateConversation"]
+        "sImageFileName": "Images/state 19bsq4.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -339,13 +345,14 @@
         "iStateIndex": 20,
         "m_strFirstSentence": "第五題：手術結束後通常要去哪裡領藥，並聽護理人員說明照護注意事項？",
         "m_strStateName": "Preop Quiz Q5 - Pharmacy Counter",
+        "m_strSystemMessage": "",
         "sFace": "TTS_PeaceA",
         "sMotion": "666_SP_Cheer",
         "sStateType": "Conversation",
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["領藥櫃檯", "領藥", "藥局", "領藥窗口"],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": ""
+        "v_str_Action": ["AccumulateConversation"]
+        "sImageFileName": "image/state 20bsq5.png"
     },
     {
         "iDurationLimitSeconds": 100,
