@@ -41,7 +41,7 @@
         ],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/PureBlack.png"
+        "sImageFileName": "Images/state 1.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -79,7 +79,7 @@
         ],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/cataract-surgery.jpg"
+       "sImageFileName": "Images/state 3.png"
     },
     {
         "iDurationLimitSeconds": 38,
@@ -98,7 +98,7 @@
         ],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/Laser.jpg"
+        "sImageFileName": "Images/state 4-1.png"
     },
     {
         "iDurationLimitSeconds": 38,
@@ -117,7 +117,7 @@
         ],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/Slide7.jpg"
+        "sImageFileName": "Images/state 5.png"
     },
    
   {
@@ -136,7 +136,7 @@
         ],
         "v_str_KeyWordMoveToNextState": ["怎麼選", "建議", "好"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/Choose.png"
+        "sImageFileName": "Images/state 6.png"
     },
     {
         "iDurationLimitSeconds": 100,
@@ -153,7 +153,7 @@
         ],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": ""
+        "sImageFileName": "Images/state 7.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -167,7 +167,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["沒問題", "好"],
         "v_str_Action": ["KeepSilentOff", "AccumulateConversation"],
-        "sImageFileName": ""
+        "sImageFileName": "Images/state 8.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -181,7 +181,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": ""
+        "sImageFileName": "Images/state 9.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -195,7 +195,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": ""
+        "sImageFileName": "Images/state 10.png"
     },
     {
         "iDurationLimitSeconds": 10,
