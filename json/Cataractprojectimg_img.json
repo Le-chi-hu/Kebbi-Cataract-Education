@@ -244,7 +244,8 @@
             "666_BA_RArmCircleR"
         ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"]
+        "v_str_Action": ["AccumulateConversation"],
+        "sImageFileName": ""
     },    
     {
         "iDurationLimitSeconds": 99,
@@ -277,7 +278,8 @@
         "sStateType": "Conversation",
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["好", "可以", "準備好了", "準備好"],
-        "v_str_Action": ["AccumulateConversation"]
+        "v_str_Action": ["AccumulateConversation"],
+        "sImageFileName": ""
     },
     {
         "iDurationLimitSeconds": 10,
