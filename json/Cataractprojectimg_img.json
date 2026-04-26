@@ -352,7 +352,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["領藥櫃檯", "領藥", "藥局", "領藥窗口"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "image/state 20bsq5.png"
+        "sImageFileName": "Images/state 20bsq5.png"
     },
     {
         "iDurationLimitSeconds": 100,
