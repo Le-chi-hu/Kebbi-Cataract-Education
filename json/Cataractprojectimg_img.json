@@ -209,7 +209,7 @@
         "sStateType": "Conversation",
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"]
+        "v_str_Action": ["AccumulateConversation"],
         "sImageFileName": "Images/state 11cq3.png"
     },
     {
@@ -224,7 +224,7 @@
         "sStateType": "SaySomething",
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"]
+        "v_str_Action": ["AccumulateConversation"],
         "sImageFileName": "Images/state 12.png"
     },
     {
@@ -291,7 +291,7 @@
         "sStateType": "Conversation",
         "vSmallMotion": ["666_SA_Think"],
         "v_str_KeyWordMoveToNextState": ["充足睡眠", "睡飽", "好好睡", "休息"],
-        "v_str_Action": ["AccumulateConversation"]
+        "v_str_Action": ["AccumulateConversation"],
         "sImageFileName": "Images/state 16bsq1.png"
     },
     {
@@ -306,7 +306,7 @@
         "sStateType": "Conversation",
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["健保卡", "手術同意書", "相關文件", "文件"],
-        "v_str_Action": ["AccumulateConversation"]
+        "v_str_Action": ["AccumulateConversation"],
         "sImageFileName": "Images/state 17bsq2.png"
     },
     {
@@ -321,7 +321,7 @@
         "sStateType": "Conversation",
         "vSmallMotion": ["666_SA_Think"],
         "v_str_KeyWordMoveToNextState": ["輕便", "寬鬆", "容易穿脫", "好穿脫"],
-        "v_str_Action": ["AccumulateConversation"]
+        "v_str_Action": ["AccumulateConversation"],
         "sImageFileName": "Images/state 18bsq3.png"
     },
     {
@@ -336,7 +336,7 @@
         "sStateType": "Conversation",
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["不可以", "不能", "不可", "不要"],
-        "v_str_Action": ["AccumulateConversation"]
+        "v_str_Action": ["AccumulateConversation"],
         "sImageFileName": "Images/state 19bsq4.png"
     },
     {
@@ -351,7 +351,7 @@
         "sStateType": "Conversation",
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["領藥櫃檯", "領藥", "藥局", "領藥窗口"],
-        "v_str_Action": ["AccumulateConversation"]
+        "v_str_Action": ["AccumulateConversation"],
         "sImageFileName": "image/state 20bsq5.png"
     },
     {
