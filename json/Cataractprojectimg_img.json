@@ -60,7 +60,7 @@
         ],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/cataract-surgery-2.jpg"
+        "sImageFileName": "Images/state 2.png"
     },
     {
         "iDurationLimitSeconds": 38,
