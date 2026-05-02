@@ -167,7 +167,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["沒問題", "好"],
         "v_str_Action": ["KeepSilentOff", "AccumulateConversation"],
-        "sImageFileName": "Images/state 8.png"
+        "sImageFileName": "Images/state 9.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -181,7 +181,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 9.png"
+        "sImageFileName": "Images/state 10-1.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -195,7 +195,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 10.png"
+        "sImageFileName": "Images/state 10-2.png"
     },
     {
         "iDurationLimitSeconds": 10,
