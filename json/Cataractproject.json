@@ -85,7 +85,7 @@
         "iDurationLimitSeconds": 31,
         "iNextStateIndex": 5,
         "iStateIndex": 4,
-        "m_strFirstSentence": "白內障手術主要有兩種方式，一種是傳統手術，一種是「飛秒雷射輔助手術」。飛秒雷射可以幫忙完成一些比較精細的步驟，例如切口和水晶體的前處理，但兩種手術最後拿掉白內障、放人工水晶體的原理是相同的。雖然飛秒雷射的精準度較高，但是健保不給付，需自費費用。",
+        "m_strFirstSentence": "白內障手術主要有兩種方式，一種是超音波乳化術，一種是「飛秒雷射輔助手術」。飛秒雷射可以幫忙完成一些比較精細的步驟，例如切口和水晶體的前處理，但兩種手術最後拿掉白內障、放人工水晶體的原理是相同的。雖然飛秒雷射的精準度較高，但是健保不給付，需自費費用。",
         "m_strStateName": "Laser comparison",
         "sFace": "TTS_PeaceB",
         "sMotion": "666_BA_ArmSSquare",
