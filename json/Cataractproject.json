@@ -19,7 +19,7 @@
         ],
         "v_str_KeyWordMoveToNextState": ["開始", "开始", "衛教", "介紹"],
         "v_str_Action": [],
-        "sImageFileName": "Images/state 1.png"
+        "sImageFileName": "Images/state 0.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -41,7 +41,7 @@
         ],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 2.png"
+        "sImageFileName": "Images/state 1.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -60,7 +60,7 @@
         ],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 3.png"
+        "sImageFileName": "Images/state 2.png"
     },
     {
         "iDurationLimitSeconds": 38,
@@ -79,7 +79,7 @@
         ],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-       "sImageFileName": "Images/state 4-1.png"
+       "sImageFileName": "Images/state 3.png"
     },
     {
         "iDurationLimitSeconds": 31,
@@ -98,7 +98,7 @@
         ],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 5.png"
+        "sImageFileName": "Images/state 4.png"
     },
     {
         "iDurationLimitSeconds": 56,
@@ -117,7 +117,7 @@
         ],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 6.png"
+        "sImageFileName": "Images/state 5.png"
     },
    
   {
@@ -136,7 +136,7 @@
         ],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 7.png"
+        "sImageFileName": "Images/state 6.png"
     },
     {
         "iDurationLimitSeconds": 40,
@@ -153,7 +153,7 @@
         ],
         "v_str_KeyWordMoveToNextState": ["有", "有的", "有了"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 8.png"
+        "sImageFileName": "Images/state 7.png"
     },
       {
         "iDurationLimitSeconds": 55,
@@ -203,7 +203,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["KeepSilentOff", "AccumulateConversation"],
-        "sImageFileName": "Images/state 9.png"
+        "sImageFileName": "Images/state 8.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -217,7 +217,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 10.png"
+        "sImageFileName": "Images/state 9.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -231,7 +231,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 11.png"
+        "sImageFileName": "Images/state 10.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -246,7 +246,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 11.png"
+        "sImageFileName": "Images/state 13.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -261,7 +261,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 12.png"
+        "sImageFileName": "Images/state 14.png"
     },
     {
         "iDurationLimitSeconds": 7,
@@ -331,7 +331,7 @@
         "vSmallMotion": ["666_SA_Think"],
         "v_str_KeyWordMoveToNextState": ["充足睡眠", "睡飽", "好好睡", "休息"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 16.png"
+        "sImageFileName": "Images/state 18.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -346,7 +346,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["健保卡", "手術同意書", "相關文件", "文件"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 17.png"
+        "sImageFileName": "Images/state 19.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -361,7 +361,7 @@
         "vSmallMotion": ["666_SA_Think"],
         "v_str_KeyWordMoveToNextState": ["輕便", "寬鬆", "容易穿脫", "好穿脫"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 18.png"
+        "sImageFileName": "Images/state20.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -376,7 +376,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["不可以", "不能", "不可", "不要"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 19.png"
+        "sImageFileName": "Images/state 21.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -391,7 +391,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["領藥櫃檯", "領藥", "藥局", "領藥窗口"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 20.png"
+        "sImageFileName": "Images/state 22.png"
     },
     {
         "iDurationLimitSeconds": 100,
@@ -405,7 +405,7 @@
         "vSmallMotion": [],
         "v_str_KeyWordMoveToNextState": ["沒有", "沒問題"],
         "v_str_Action": ["KeepSilentOff","AccumulateConversation"],
-        "sImageFileName": "Images/state21.png"
+        "sImageFileName": "Images/state23.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -438,7 +438,7 @@
         ],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": [],
-        "sImageFileName": "Images/state23.png"
+        "sImageFileName": "Images/state25.png"
     },
     {
         "iDurationLimitSeconds": 129,
@@ -471,7 +471,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["好", "可以", "準備好了", "準備好"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state25.png"
+        "sImageFileName": "Images/state27.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -485,7 +485,7 @@
         "vSmallMotion": ["666_SA_Think"],
         "v_str_KeyWordMoveToNextState": ["不需要", "不用", "不必"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state26.png"
+        "sImageFileName": "Images/state28.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -499,7 +499,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["藥品", "藥水", "藥膏", "眼罩", "護理包"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state27.png"
+        "sImageFileName": "Images/state29.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -513,7 +513,7 @@
         "vSmallMotion": ["666_SA_Think"],
         "v_str_KeyWordMoveToNextState": ["是", "正常", "算正常", "對"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state28.png"
+        "sImageFileName": "Images/state30.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -527,7 +527,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["視力突然", "視力減退", "異常疼痛", "眼紅", "大量出血", "分泌物"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state29.png"
+        "sImageFileName": "Images/state31.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -541,7 +541,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["一個月", "1個月", "四週", "4週"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state30.png"
+        "sImageFileName": "Images/state32.png"
     },
     {
         "iDurationLimitSeconds": 10,
@@ -555,7 +555,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state32.png"
+        "sImageFileName": "Images/state34.png"
     },
     {
         "iDurationLimitSeconds": 100,
@@ -569,7 +569,7 @@
         "vSmallMotion": [],
         "v_str_KeyWordMoveToNextState": ["沒有", "沒問題"],
         "v_str_Action": ["KeepSilentOff","AccumulateConversation"],
-        "sImageFileName": "Images/state32.png"
+        "sImageFileName": "Images/state34.png"
     },
     {
         "iDurationLimitSeconds": 100,
@@ -583,7 +583,7 @@
         "vSmallMotion": [],
         "v_str_KeyWordMoveToNextState": ["好的", "再見", "謝謝"],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state33.png"
+        "sImageFileName": "Images/state35.png"
     },
     {
         "iDurationLimitSeconds": 100,
@@ -597,6 +597,6 @@
         "vSmallMotion": [],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state34.png"
+        "sImageFileName": "Images/state36.png"
     }
 ]
