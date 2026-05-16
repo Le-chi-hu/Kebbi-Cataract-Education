@@ -520,7 +520,7 @@
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state32.png"
+        "sImageFileName": "Images/state31.png"
     },
     {
         "iDurationLimitSeconds": 100,
@@ -534,7 +534,7 @@
         "vSmallMotion": [],
         "v_str_KeyWordMoveToNextState": ["沒有", "沒問題"],
         "v_str_Action": ["KeepSilentOff","AccumulateConversation"],
-        "sImageFileName": "Images/state32.png"
+        "sImageFileName": "Images/state31.png"
     },
     {
         "iDurationLimitSeconds": 100,
