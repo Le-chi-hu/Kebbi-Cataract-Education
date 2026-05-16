@@ -151,6 +151,7 @@
             "666_BA_ArmSSquare",
             "666_BA_RArmCircleR"
         ],
+        
         "v_str_KeyWordMoveToNextState": ["有", "有的", "有了"],
         "v_str_Action": ["AccumulateConversation"],
         "sImageFileName": "Images/state 7.png"
@@ -276,7 +277,7 @@
         "m_strSystemMessage": "",
         "sFace": "TTS_PeaceA",
         "sMotion": "666_SA_Think",
-        "sStateType": "Conversation",
+        "sStateType": "RobotAskPatientAnswer",
         "vSmallMotion": ["666_BA_Nodhead"],
         "v_str_KeyWordMoveToNextState": ["好", "可以", "準備好了", "準備好"],
         "v_str_Action": ["AccumulateConversation"],
@@ -543,7 +544,7 @@
         "m_strStateName": "Ending and Goodbye",
         "sFace": "TTS_PeaceB",
         "sMotion": "666_SA_Think",
-        "sStateType": "Conversation",
+        "sStateType": "RobotAskPatientAnswer",
         "vSmallMotion": [],
         "v_str_KeyWordMoveToNextState": ["好的", "再見", "謝謝"],
         "v_str_Action": ["AccumulateConversation"],
@@ -557,7 +558,7 @@
         "m_strStateName": "Goodbye",
         "sFace": "TTS_PeaceA",
         "sMotion": "666_RE_Bye",
-        "sStateType": "Conversation",
+        "sStateType": "SaySomething",
         "vSmallMotion": [],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
