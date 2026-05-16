@@ -246,7 +246,7 @@
         ],
         "v_str_KeyWordMoveToNextState": [],
         "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": ""
+        "sImageFileName": "Images/state 12.png"
     },    
     {
         "iDurationLimitSeconds": 99,
