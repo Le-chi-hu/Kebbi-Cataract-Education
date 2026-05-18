@@ -1,7 +1,7 @@
 [
     {
         "iDurationLimitSeconds": 600,
-        "iNextStateIndex": 33,
+        "iNextStateIndex": 1,
         "iStateIndex": 0,
         "m_strFirstSentence": "我準備好了。請說「開始」來啟動衛教，或是說「介紹」來聽我自我介紹。",
         "m_strStateName": "Waiting for start",
