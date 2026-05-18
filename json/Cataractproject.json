@@ -405,7 +405,7 @@
         "vSmallMotion": [],
         "v_str_KeyWordMoveToNextState": ["沒有", "沒問題"],
         "v_str_Action": ["KeepSilentOff","AccumulateConversation"],
-        "sImageFileName": "Images/stat 23.png"
+        "sImageFileName": "Images/state 23.png"
     },
     {
         "iDurationLimitSeconds": 10,
