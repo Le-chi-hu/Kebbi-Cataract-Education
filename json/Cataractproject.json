@@ -1,7 +1,7 @@
 [
     {
         "iDurationLimitSeconds": 600,
-        "iNextStateIndex": 1,
+        "iNextStateIndex": 33,
         "iStateIndex": 0,
         "m_strFirstSentence": "我準備好了。請說「開始」來啟動衛教，或是說「介紹」來聽我自我介紹。",
         "m_strStateName": "Waiting for start",
@@ -146,7 +146,7 @@
         "m_strStateName": "Lifestyle Selection Guide",
         "sFace": "TTS_PeaceB",
         "sMotion": "666_SP_Cheer",
-        "sStateType": "RobotAskPatientAnswer",
+        "sStateType": "SaySomething",
         "vSmallMotion": [
             "666_BA_ArmSSquare",
             "666_BA_RArmCircleR"
@@ -558,7 +558,7 @@
         "sImageFileName": "Images/state 34.png"
     },
     {
-        "iDurationLimitSeconds": 100,
+        "iDurationLimitSeconds": 999,
         "iNextStateIndex": 35,
         "iStateIndex": 34,
         "m_strFirstSentence": "請問您有什麼問題嗎？",
