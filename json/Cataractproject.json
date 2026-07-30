@@ -1,7 +1,7 @@
 [
     {
         "iDurationLimitSeconds": 600,
-        "iNextStateIndex": 1,
+        "iNextStateIndex": 34,
         "iStateIndex": 0,
         "m_strFirstSentence": "我準備好了。請說「開始」來啟動衛教，或是說「介紹」來聽我自我介紹。",
         "m_strStateName": "Waiting for start",
@@ -17,7 +17,7 @@
             "666_SA_Think",
             "666_SP_Cheer"
         ],
-        "v_str_KeyWordMoveToNextState": ["開始", "开始", "衛教", "介紹"],
+        "v_str_KeyWordMoveToNextState": ["開始","开始","衛教","介紹"],
         "v_str_Action": [],
         "sImageFileName": "Images/state 0.png"
     },
@@ -40,7 +40,9 @@
             "666_SP_Cheer"
         ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
         "sImageFileName": "Images/state 1.png"
     },
     {
@@ -59,7 +61,9 @@
             "666_BA_RArmCircleR"
         ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
         "sImageFileName": "Images/state 2.png"
     },
     {
@@ -78,8 +82,10 @@
             "666_BA_RArmCircleR"
         ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
-       "sImageFileName": "Images/state 3.png"
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 3.png"
     },
     {
         "iDurationLimitSeconds": 31,
@@ -97,7 +103,9 @@
             "666_BA_RArmCircleR"
         ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
         "sImageFileName": "Images/state 4.png"
     },
     {
@@ -116,11 +124,12 @@
             "666_BA_RArmCircleR"
         ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
         "sImageFileName": "Images/state 5.png"
     },
-   
-  {
+    {
         "iDurationLimitSeconds": 27,
         "iNextStateIndex": 7,
         "iStateIndex": 6,
@@ -135,7 +144,9 @@
             "666_BA_RArmCircleL"
         ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
         "sImageFileName": "Images/state 6.png"
     },
     {
@@ -151,11 +162,17 @@
             "666_BA_ArmSSquare",
             "666_BA_RArmCircleR"
         ],
-        "v_str_KeyWordMoveToNextState": ["有", "有的", "有了"],
-        "v_str_Action": ["AccumulateConversation"],
+        "v_str_KeyWordMoveToNextState": [
+            "有",
+            "有的",
+            "有了"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
         "sImageFileName": "Images/state 7.png"
     },
-      {
+    {
         "iDurationLimitSeconds": 55,
         "iNextStateIndex": 9,
         "iStateIndex": 8,
@@ -170,10 +187,12 @@
             "666_BA_RArmCircleL"
         ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
         "sImageFileName": "Images/price.png"
     },
-      {
+    {
         "iDurationLimitSeconds": 40,
         "iNextStateIndex": 10,
         "iStateIndex": 9,
@@ -188,7 +207,9 @@
             "666_BA_RArmCircleL"
         ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
         "sImageFileName": "Images/sequence.png"
     },
     {
@@ -200,9 +221,14 @@
         "sFace": "TTS_PeaceA",
         "sMotion": "666_SA_Think",
         "sStateType": "SaySomething",
-        "vSmallMotion": ["666_BA_Nodhead"],
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["KeepSilentOff", "AccumulateConversation"],
+        "v_str_Action": [
+            "KeepSilentOff",
+            "AccumulateConversation"
+        ],
         "sImageFileName": "Images/state 10.png"
     },
     {
@@ -214,10 +240,23 @@
         "sFace": "TTS_PeaceA",
         "sMotion": "666_BA_Nodhead",
         "sStateType": "Conversation",
-        "vSmallMotion": ["666_BA_Nodhead"],
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 11.png"
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 11.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "需要"
+                ],
+                "TargetStateIndex": 50
+            }
+        ],
+        "WrongAnswerStateIndex": 47
     },
     {
         "iDurationLimitSeconds": 10,
@@ -228,10 +267,23 @@
         "sFace": "TTS_PeaceB",
         "sMotion": "666_SA_Think",
         "sStateType": "Conversation",
-        "vSmallMotion": ["666_BA_Nodhead"],
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 12.png"
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 12.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "延伸焦段"
+                ],
+                "TargetStateIndex": 51
+            }
+        ],
+        "WrongAnswerStateIndex": 48
     },
     {
         "iDurationLimitSeconds": 10,
@@ -243,10 +295,24 @@
         "sFace": "TTS_PeaceA",
         "sMotion": "666_SP_Cheer",
         "sStateType": "Conversation",
-        "vSmallMotion": ["666_BA_Nodhead"],
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 13.png"
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 13.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "三焦點",
+                    "多焦點"
+                ],
+                "TargetStateIndex": 52
+            }
+        ],
+        "WrongAnswerStateIndex": 49
     },
     {
         "iDurationLimitSeconds": 10,
@@ -258,9 +324,13 @@
         "sFace": "TTS_PeaceB",
         "sMotion": "666_SP_Cheer",
         "sStateType": "SaySomething",
-        "vSmallMotion": ["666_BA_Nodhead"],
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
         "sImageFileName": "Images/state 14.png"
     },
     {
@@ -280,9 +350,11 @@
             "666_BA_RArmCircleR"
         ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
         "sImageFileName": ""
-    },    
+    },
     {
         "iDurationLimitSeconds": 99,
         "iNextStateIndex": 17,
@@ -300,7 +372,12 @@
             "666_BA_RArmCircleR"
         ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["KeepSilent","PlayVideo:Videos/Cataract_Preop.mp4","AccumulateConversation","InsertAssitantMessage:第一點：手術前一天請充足睡眠。要讓身體與眼睛在手術前保持良好的休息狀態，這樣有助於手術的順利進行。第二點：請備妥手術相關文件與健保卡。在手術當天，請記得攜帶好健保卡、手術同意書等相關文件，這樣醫護人員能更順利地為您辦理手續，讓整個流程更順暢，也能避免臨時找資料的麻煩。第三點：手術當天請穿著輕便衣物。選擇寬鬆、容易穿脫的服裝，這樣在手術和更換衣物時會更方便，也能讓您感到更舒適。第四點：手術前不得佩戴任何飾品。包括項鍊、耳環、手鍊等，這樣可以避免手術過程中出現不便，也確保手術的安全和順利進行。第五點：手術過程中不得隨意觸碰。在手術過程請不要隨意觸碰已經消毒過的部位，這是因為護士在手術前已經仔細消毒了相關區域，如果您過程中觸碰它，就必需重新消毒，這不僅會增加感染的風險，也會延長手術時間，所以請務必保持耐心避免觸碰。第六點：手術結束後請至領藥櫃檯。請在休息之後前往領藥櫃檯，在那裡護理人員會為您準備術後的藥物，並且詳細叮囑您術後的照護注意事項，讓您清楚接下來如何照顧自己。"],
+        "v_str_Action": [
+            "KeepSilent",
+            "PlayVideo:Videos/Cataract_Preop.mp4",
+            "AccumulateConversation",
+            "InsertAssitantMessage:第一點：手術前一天請充足睡眠。要讓身體與眼睛在手術前保持良好的休息狀態，這樣有助於手術的順利進行。第二點：請備妥手術相關文件與健保卡。在手術當天，請記得攜帶好健保卡、手術同意書等相關文件，這樣醫護人員能更順利地為您辦理手續，讓整個流程更順暢，也能避免臨時找資料的麻煩。第三點：手術當天請穿著輕便衣物。選擇寬鬆、容易穿脫的服裝，這樣在手術和更換衣物時會更方便，也能讓您感到更舒適。第四點：手術前不得佩戴任何飾品。包括項鍊、耳環、手鍊等，這樣可以避免手術過程中出現不便，也確保手術的安全和順利進行。第五點：手術過程中不得隨意觸碰。在手術過程請不要隨意觸碰已經消毒過的部位，這是因為護士在手術前已經仔細消毒了相關區域，如果您過程中觸碰它，就必需重新消毒，這不僅會增加感染的風險，也會延長手術時間，所以請務必保持耐心避免觸碰。第六點：手術結束後請至領藥櫃檯。請在休息之後前往領藥櫃檯，在那裡護理人員會為您準備術後的藥物，並且詳細叮囑您術後的照護注意事項，讓您清楚接下來如何照顧自己。"
+        ],
         "sImageFileName": ""
     },
     {
@@ -313,9 +390,18 @@
         "sFace": "TTS_PeaceA",
         "sMotion": "666_SA_Think",
         "sStateType": "RobotAskPatientAnswer",
-        "vSmallMotion": ["666_BA_Nodhead"],
-        "v_str_KeyWordMoveToNextState": ["好", "可以", "準備好了", "準備好"],
-        "v_str_Action": ["AccumulateConversation"],
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "好",
+            "可以",
+            "準備好了",
+            "準備好"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
         "sImageFileName": ""
     },
     {
@@ -328,10 +414,31 @@
         "sFace": "TTS_PeaceA",
         "sMotion": "666_BA_Nodhead",
         "sStateType": "RobotAskPatientAnswer",
-        "vSmallMotion": ["666_SA_Think"],
-        "v_str_KeyWordMoveToNextState": ["充足睡眠", "睡飽", "好好睡", "休息"],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 18.png"
+        "vSmallMotion": [
+            "666_SA_Think"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "充足睡眠",
+            "睡飽",
+            "好好睡",
+            "休息"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 18.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "充足睡眠",
+                    "睡飽",
+                    "好好睡",
+                    "休息"
+                ],
+                "TargetStateIndex": 53
+            }
+        ],
+        "WrongAnswerStateIndex": 37
     },
     {
         "iDurationLimitSeconds": 10,
@@ -343,10 +450,31 @@
         "sFace": "TTS_PeaceB",
         "sMotion": "666_SA_Think",
         "sStateType": "RobotAskPatientAnswer",
-        "vSmallMotion": ["666_BA_Nodhead"],
-        "v_str_KeyWordMoveToNextState": ["健保卡", "手術同意書", "相關文件", "文件"],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 19.png"
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "健保卡",
+            "手術同意書",
+            "相關文件",
+            "文件"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 19.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "健保卡",
+                    "手術同意書",
+                    "相關文件",
+                    "文件"
+                ],
+                "TargetStateIndex": 54
+            }
+        ],
+        "WrongAnswerStateIndex": 38
     },
     {
         "iDurationLimitSeconds": 10,
@@ -358,10 +486,31 @@
         "sFace": "TTS_PeaceA",
         "sMotion": "666_BA_Nodhead",
         "sStateType": "RobotAskPatientAnswer",
-        "vSmallMotion": ["666_SA_Think"],
-        "v_str_KeyWordMoveToNextState": ["輕便", "寬鬆", "容易穿脫", "好穿脫"],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 20.png"
+        "vSmallMotion": [
+            "666_SA_Think"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "輕便",
+            "寬鬆",
+            "容易穿脫",
+            "好穿脫"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 20.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "輕便",
+                    "寬鬆",
+                    "容易穿脫",
+                    "好穿脫"
+                ],
+                "TargetStateIndex": 55
+            }
+        ],
+        "WrongAnswerStateIndex": 39
     },
     {
         "iDurationLimitSeconds": 10,
@@ -373,10 +522,31 @@
         "sFace": "TTS_PeaceB",
         "sMotion": "666_SA_Think",
         "sStateType": "RobotAskPatientAnswer",
-        "vSmallMotion": ["666_BA_Nodhead"],
-        "v_str_KeyWordMoveToNextState": ["不可以", "不能", "不可", "不要"],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 21.png"
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "不可以",
+            "不能",
+            "不可",
+            "不要"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 21.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "不可以",
+                    "不能",
+                    "不可",
+                    "不要"
+                ],
+                "TargetStateIndex": 56
+            }
+        ],
+        "WrongAnswerStateIndex": 40
     },
     {
         "iDurationLimitSeconds": 10,
@@ -388,10 +558,31 @@
         "sFace": "TTS_PeaceA",
         "sMotion": "666_SP_Cheer",
         "sStateType": "RobotAskPatientAnswer",
-        "vSmallMotion": ["666_BA_Nodhead"],
-        "v_str_KeyWordMoveToNextState": ["領藥櫃檯", "領藥", "藥局", "領藥窗口"],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 22.png"
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "領藥櫃檯",
+            "領藥",
+            "藥局",
+            "領藥窗口"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 22.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "領藥櫃檯",
+                    "領藥",
+                    "藥局",
+                    "領藥窗口"
+                ],
+                "TargetStateIndex": 57
+            }
+        ],
+        "WrongAnswerStateIndex": 41
     },
     {
         "iDurationLimitSeconds": 100,
@@ -403,8 +594,14 @@
         "sMotion": "666_SA_Think",
         "sStateType": "Conversation",
         "vSmallMotion": [],
-        "v_str_KeyWordMoveToNextState": ["沒有", "沒問題"],
-        "v_str_Action": ["KeepSilentOff","AccumulateConversation"],
+        "v_str_KeyWordMoveToNextState": [
+            "沒有",
+            "沒問題"
+        ],
+        "v_str_Action": [
+            "KeepSilentOff",
+            "AccumulateConversation"
+        ],
         "sImageFileName": "Images/state 23.png"
     },
     {
@@ -416,9 +613,13 @@
         "sFace": "TTS_PeaceB",
         "sMotion": "666_SP_Cheer",
         "sStateType": "SaySomething",
-        "vSmallMotion": ["666_BA_Nodhead"],
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
         "sImageFileName": "Images/stat 23.png"
     },
     {
@@ -456,7 +657,12 @@
             "666_BA_RArmCircleR"
         ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["KeepSilent","PlayVideo:Videos/Cataract_Postop.mp4","AccumulateConversation","InsertAssitantMessage:白內障術後注意事項。第一點：紗布覆蓋眼睛時不需點眼藥水。手術當天手術結束後眼睛會有紗布覆蓋，因此在當天無須點眼藥水，請依醫師指示的時間開始使用眼藥水即可。第二點：回診請帶開刀當日開立的藥品。在手術後隔天回診時，請攜帶當日開刀時，醫師所開立的藥品，例如藥水、藥膏、眼罩或護理包，經由醫師檢查後，再依照指示開始使用眼藥水。第三點：畏光、流眼淚、輕度局部刺痛感為正常現象。在手術後如果您感到對光線比較敏感、有流眼淚的情況或著眼睛有輕微的刺痛感，這些其實都是術後的正常現象，只要按照醫囑護理，通常這些症狀會逐漸緩解，無須過度擔心。第四點：有任何不適馬上回診或到急診室求診。如果在手術後，出現視力突然明顯減退、異常疼痛、眼紅、大量出血或有不正常的分泌物，請務必立即回診或前往急診室就醫。第五點：儘量臥床休息，避免危險動作。在手術當天請盡量臥床休息，並且避免進行任何可能造成眼部壓力的危險動作，例如：用力咳嗽、彎腰、提重物或是劇烈運動，以免影響傷口癒合。第六點：維持規律生活，按時服藥。請在術後維持規律的生活作息，保持日常作息的穩定，避免過度勞累，並依照醫師指示按時服用所有已開立的藥物。第七點：眼睛一個月不可進水、不可游泳及劇烈運動。在手術後的一個月內，請避免讓眼睛接觸水分，同時避免游泳和任何劇烈的運動，以確保眼部的安全。第八點：眼罩要戴一個月，白天、晚上都要戴。在術後的一個月內請每天全天配戴眼罩，特別是在睡眠時也要保持配戴，以確保眼部的安全與保護。"],
+        "v_str_Action": [
+            "KeepSilent",
+            "PlayVideo:Videos/Cataract_Postop.mp4",
+            "AccumulateConversation",
+            "InsertAssitantMessage:白內障術後注意事項。第一點：紗布覆蓋眼睛時不需點眼藥水。手術當天手術結束後眼睛會有紗布覆蓋，因此在當天無須點眼藥水，請依醫師指示的時間開始使用眼藥水即可。第二點：回診請帶開刀當日開立的藥品。在手術後隔天回診時，請攜帶當日開刀時，醫師所開立的藥品，例如藥水、藥膏、眼罩或護理包，經由醫師檢查後，再依照指示開始使用眼藥水。第三點：畏光、流眼淚、輕度局部刺痛感為正常現象。在手術後如果您感到對光線比較敏感、有流眼淚的情況或著眼睛有輕微的刺痛感，這些其實都是術後的正常現象，只要按照醫囑護理，通常這些症狀會逐漸緩解，無須過度擔心。第四點：有任何不適馬上回診或到急診室求診。如果在手術後，出現視力突然明顯減退、異常疼痛、眼紅、大量出血或有不正常的分泌物，請務必立即回診或前往急診室就醫。第五點：儘量臥床休息，避免危險動作。在手術當天請盡量臥床休息，並且避免進行任何可能造成眼部壓力的危險動作，例如：用力咳嗽、彎腰、提重物或是劇烈運動，以免影響傷口癒合。第六點：維持規律生活，按時服藥。請在術後維持規律的生活作息，保持日常作息的穩定，避免過度勞累，並依照醫師指示按時服用所有已開立的藥物。第七點：眼睛一個月不可進水、不可游泳及劇烈運動。在手術後的一個月內，請避免讓眼睛接觸水分，同時避免游泳和任何劇烈的運動，以確保眼部的安全。第八點：眼罩要戴一個月，白天、晚上都要戴。在術後的一個月內請每天全天配戴眼罩，特別是在睡眠時也要保持配戴，以確保眼部的安全與保護。"
+        ],
         "sImageFileName": ""
     },
     {
@@ -468,9 +674,18 @@
         "sFace": "TTS_PeaceA",
         "sMotion": "666_SA_Think",
         "sStateType": "RobotAskPatientAnswer",
-        "vSmallMotion": ["666_BA_Nodhead"],
-        "v_str_KeyWordMoveToNextState": ["好", "可以", "準備好了", "準備好"],
-        "v_str_Action": ["AccumulateConversation"],
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "好",
+            "可以",
+            "準備好了",
+            "準備好"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
         "sImageFileName": "Images/state 27.png"
     },
     {
@@ -482,10 +697,29 @@
         "sFace": "TTS_PeaceA",
         "sMotion": "666_BA_Nodhead",
         "sStateType": "RobotAskPatientAnswer",
-        "vSmallMotion": ["666_SA_Think"],
-        "v_str_KeyWordMoveToNextState": ["不需要", "不用", "不必"],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 28.png"
+        "vSmallMotion": [
+            "666_SA_Think"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "不需要",
+            "不用",
+            "不必"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 28.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "不需要",
+                    "不用",
+                    "不必"
+                ],
+                "TargetStateIndex": 58
+            }
+        ],
+        "WrongAnswerStateIndex": 42
     },
     {
         "iDurationLimitSeconds": 10,
@@ -496,10 +730,33 @@
         "sFace": "TTS_PeaceB",
         "sMotion": "666_SA_Think",
         "sStateType": "RobotAskPatientAnswer",
-        "vSmallMotion": ["666_BA_Nodhead"],
-        "v_str_KeyWordMoveToNextState": ["藥品", "藥水", "藥膏", "眼罩", "護理包"],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 29.png"
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "藥品",
+            "藥水",
+            "藥膏",
+            "眼罩",
+            "護理包"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 29.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "藥品",
+                    "藥水",
+                    "藥膏",
+                    "眼罩",
+                    "護理包"
+                ],
+                "TargetStateIndex": 59
+            }
+        ],
+        "WrongAnswerStateIndex": 43
     },
     {
         "iDurationLimitSeconds": 10,
@@ -510,10 +767,31 @@
         "sFace": "TTS_PeaceA",
         "sMotion": "666_BA_Nodhead",
         "sStateType": "RobotAskPatientAnswer",
-        "vSmallMotion": ["666_SA_Think"],
-        "v_str_KeyWordMoveToNextState": ["是", "正常", "算正常", "對"],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 30.png"
+        "vSmallMotion": [
+            "666_SA_Think"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "是",
+            "正常",
+            "算正常",
+            "對"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 30.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "是",
+                    "正常",
+                    "算正常",
+                    "對"
+                ],
+                "TargetStateIndex": 60
+            }
+        ],
+        "WrongAnswerStateIndex": 44
     },
     {
         "iDurationLimitSeconds": 10,
@@ -524,10 +802,35 @@
         "sFace": "TTS_PeaceB",
         "sMotion": "666_SA_Think",
         "sStateType": "RobotAskPatientAnswer",
-        "vSmallMotion": ["666_BA_Nodhead"],
-        "v_str_KeyWordMoveToNextState": ["視力突然", "視力減退", "異常疼痛", "眼紅", "大量出血", "分泌物"],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 31.png"
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "視力突然",
+            "視力減退",
+            "異常疼痛",
+            "眼紅",
+            "大量出血",
+            "分泌物"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 31.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "視力突然",
+                    "視力減退",
+                    "異常疼痛",
+                    "眼紅",
+                    "大量出血",
+                    "分泌物"
+                ],
+                "TargetStateIndex": 61
+            }
+        ],
+        "WrongAnswerStateIndex": 45
     },
     {
         "iDurationLimitSeconds": 10,
@@ -538,10 +841,31 @@
         "sFace": "TTS_PeaceA",
         "sMotion": "666_SP_Cheer",
         "sStateType": "RobotAskPatientAnswer",
-        "vSmallMotion": ["666_BA_Nodhead"],
-        "v_str_KeyWordMoveToNextState": ["一個月", "1個月", "四週", "4週"],
-        "v_str_Action": ["AccumulateConversation"],
-        "sImageFileName": "Images/state 32.png"
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "一個月",
+            "1個月",
+            "四週",
+            "4週"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 32.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "一個月",
+                    "1個月",
+                    "四週",
+                    "4週"
+                ],
+                "TargetStateIndex": 62
+            }
+        ],
+        "WrongAnswerStateIndex": 46
     },
     {
         "iDurationLimitSeconds": 10,
@@ -552,9 +876,13 @@
         "sFace": "TTS_PeaceB",
         "sMotion": "666_SP_Cheer",
         "sStateType": "SaySomething",
-        "vSmallMotion": ["666_BA_Nodhead"],
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
         "sImageFileName": "Images/state 34.png"
     },
     {
@@ -566,9 +894,20 @@
         "sFace": "TTS_PeaceA",
         "sMotion": "666_SA_Think",
         "sStateType": "Conversation",
-        "vSmallMotion": [],
-        "v_str_KeyWordMoveToNextState": ["沒有", "沒問題"],
-        "v_str_Action": ["KeepSilentOff","AccumulateConversation"],
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "沒有",
+            "沒問題"
+        ],
+        "v_str_Action": [
+            "KeepSilentOff",
+            "AccumulateConversation"
+        ],
         "sImageFileName": "Images/state 34.png"
     },
     {
@@ -581,13 +920,19 @@
         "sMotion": "666_SA_Think",
         "sStateType": "RobotAskPatientAnswer",
         "vSmallMotion": [],
-        "v_str_KeyWordMoveToNextState": ["好的", "再見", "謝謝"],
-        "v_str_Action": ["AccumulateConversation"],
+        "v_str_KeyWordMoveToNextState": [
+            "好的",
+            "再見",
+            "謝謝"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
         "sImageFileName": "Images/state 35.png"
     },
     {
         "iDurationLimitSeconds": 100,
-        "iNextStateIndex": 37,
+        "iNextStateIndex": 36,
         "iStateIndex": 36,
         "m_strFirstSentence": "再見！",
         "m_strStateName": "Goodbye",
@@ -596,7 +941,555 @@
         "sStateType": "SaySomething",
         "vSmallMotion": [],
         "v_str_KeyWordMoveToNextState": [],
-        "v_str_Action": ["AccumulateConversation"],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
         "sImageFileName": "Images/state 36.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 19,
+        "iStateIndex": 37,
+        "m_strFirstSentence": "很可惜答錯了。正確答案是：手術前一天要有充足的睡眠，讓身體與眼睛保持良好的休息狀態，這樣才能讓手術更順利地進行喔。",
+        "m_strStateName": "Preop Quiz Q1 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ], 
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 18.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 20,
+        "iStateIndex": 38,
+        "m_strFirstSentence": "正確答案是：手術當天要記得帶健保卡和手術同意書等相關文件，這樣才能讓醫護人員順利為您辦理手續喔。",
+        "m_strStateName": "Preop Quiz Q2 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 19.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 21,
+        "iStateIndex": 39,
+        "m_strFirstSentence": "正確答案是：手術當天建議穿輕便、寬鬆、容易穿脫的衣服，這樣在手術和更換衣物時會比較方便舒適。",
+        "m_strStateName": "Preop Quiz Q3 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 20.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 22,
+        "iStateIndex": 40,
+        "m_strFirstSentence": "正確答案是：手術前不可以佩戴項鍊、耳環或手鍊等飾品，這樣才能確保手術的安全與順利進行。",
+        "m_strStateName": "Preop Quiz Q4 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 21.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 23,
+        "iStateIndex": 41,
+        "m_strFirstSentence": "正確答案是：手術結束後，請前往領藥櫃檯領取藥物，護理人員也會在那裡詳細說明術後照護的注意事項。",
+        "m_strStateName": "Preop Quiz Q5 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 22.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 29,
+        "iStateIndex": 42,
+        "m_strFirstSentence": "正確答案是：紗布覆蓋眼睛的時候不需要點眼藥水，請依照醫師指示的時間開始使用眼藥水就可以了。",
+        "m_strStateName": "Postop Quiz Q1 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 28.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 30,
+        "iStateIndex": 43,
+        "m_strFirstSentence": "正確答案是：隔天回診時，請攜帶當天開刀時醫師開立的藥品，像是藥水、藥膏、眼罩或護理包，讓醫師確認後再開始使用。",
+        "m_strStateName": "Postop Quiz Q2 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 29.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 31,
+        "iStateIndex": 44,
+        "m_strFirstSentence": "正確答案是：術後如果有畏光、流眼淚或輕微刺痛感，這些其實都是正常現象，只要按照醫囑護理，通常會逐漸緩解。",
+        "m_strStateName": "Postop Quiz Q3 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 30.png"
+    },
+    {
+        "iDurationLimitSeconds": 14,
+        "iNextStateIndex": 32,
+        "iStateIndex": 45,
+        "m_strFirstSentence": "正確答案是：如果術後出現視力突然減退、異常疼痛、眼紅、大量出血或不正常的分泌物，請立即回診或前往急診室就醫。",
+        "m_strStateName": "Postop Quiz Q4 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 31.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 33,
+        "iStateIndex": 46,
+        "m_strFirstSentence": "正確答案是：術後一個月內，眼睛不可以碰水，也要避免游泳和劇烈運動，以確保眼部安全。",
+        "m_strStateName": "Postop Quiz Q5 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 32.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 12,
+        "iStateIndex": 47,
+        "m_strFirstSentence": "正確答案是：需要。單焦點水晶體只能對焦在一個距離，通常會設定成看遠處清楚，所以看手機或看書這類近距離，還是需要配戴老花眼鏡輔助。",
+        "m_strStateName": "Lens Quiz Q1 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 11.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 13,
+        "iStateIndex": 48,
+        "m_strFirstSentence": "正確答案是：延伸焦段水晶體。這種水晶體能提供比較連續、自然的中距離視力，很適合平常煮飯或用電腦這類需求。",
+        "m_strStateName": "Lens Quiz Q2 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 12.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 14,
+        "iStateIndex": 49,
+        "m_strFirstSentence": "正確答案是：三焦點或多焦點水晶體。這種水晶體能同時兼顧看遠、看中距離、看近的視力，大部分時間都不太需要戴眼鏡。",
+        "m_strStateName": "Lens Quiz Q3 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 13.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 12,
+        "iStateIndex": 50,
+        "m_strFirstSentence": "太好了，你答對了！",
+        "m_strStateName": "Quiz Q1 - Vision Scope - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 11.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 13,
+        "iStateIndex": 51,
+        "m_strFirstSentence": "太好了，你答對了！",
+        "m_strStateName": "Quiz Q2 - Mid distance - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 12.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 14,
+        "iStateIndex": 52,
+        "m_strFirstSentence": "太好了，你答對了！",
+        "m_strStateName": "Quiz Q3 - Comprehensive Vision - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 13.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 19,
+        "iStateIndex": 53,
+        "m_strFirstSentence": "太好了，你答對了！",
+        "m_strStateName": "Preop Quiz Q1 - Sleep - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 18.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 20,
+        "iStateIndex": 54,
+        "m_strFirstSentence": "太好了，你答對了！",
+        "m_strStateName": "Preop Quiz Q2 - Documents - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 19.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 21,
+        "iStateIndex": 55,
+        "m_strFirstSentence": "太好了，你答對了！",
+        "m_strStateName": "Preop Quiz Q3 - Clothing - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 20.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 22,
+        "iStateIndex": 56,
+        "m_strFirstSentence": "太好了，你答對了！",
+        "m_strStateName": "Preop Quiz Q4 - No Jewelry - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 21.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 23,
+        "iStateIndex": 57,
+        "m_strFirstSentence": "太好了，你答對了！",
+        "m_strStateName": "Preop Quiz Q5 - Pharmacy Counter - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 22.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 29,
+        "iStateIndex": 58,
+        "m_strFirstSentence": "太好了，你答對了！",
+        "m_strStateName": "Postop Quiz Q1 - No Drops With Gauze - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 28.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 30,
+        "iStateIndex": 59,
+        "m_strFirstSentence": "太好了，你答對了！",
+        "m_strStateName": "Postop Quiz Q2 - Bring Meds - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 29.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 31,
+        "iStateIndex": 60,
+        "m_strFirstSentence": "太好了，你答對了！",
+        "m_strStateName": "Postop Quiz Q3 - Normal Symptoms - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 30.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 32,
+        "iStateIndex": 61,
+        "m_strFirstSentence": "太好了，你答對了！",
+        "m_strStateName": "Postop Quiz Q4 - Red Flags - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 31.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 33,
+        "iStateIndex": 62,
+        "m_strFirstSentence": "太好了，你答對了！",
+        "m_strStateName": "Postop Quiz Q5 - No Water One Month - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion":  [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 32.png"
     }
 ]
