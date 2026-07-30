@@ -1,0 +1,1502 @@
+[
+    {
+        "iDurationLimitSeconds": 600,
+        "iNextStateIndex": 34,
+        "iStateIndex": 0,
+        "m_strFirstSentence": "I'm ready. Please say \"Start\" to begin the health education, or say \"Introduce\" to hear my self-introduction.",
+        "m_strStateName": "Waiting for start",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_RE_Bow",
+        "sStateType": "Conversation",
+        "vSmallMotion": [
+            "666_BA_ArmSCircle",
+            "666_BA_ArmSSquare",
+            "666_BA_RArmCircleL",
+            "666_BA_RArmCircleR",
+            "666_BA_Nodhead",
+            "666_SA_Think",
+            "666_SP_Cheer"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "start",
+            "begin",
+            "health education",
+            "introduce"
+        ],
+        "v_str_Action": [],
+        "sImageFileName": "Images/state 0.png"
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 2,
+        "iStateIndex": 1,
+        "m_strFirstSentence": "Hello, I'm glad to be of service. I'm Kirby, the health education robot. May I ask how you'd like to be addressed?",
+        "m_strStateName": "Greeting 1 and ask name",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_RE_Bow",
+        "sStateType": "Conversation",
+        "vSmallMotion": [
+            "666_BA_ArmSCircle",
+            "666_BA_ArmSSquare",
+            "666_BA_RArmCircleL",
+            "666_BA_RArmCircleR",
+            "666_BA_Nodhead",
+            "666_SA_Think",
+            "666_SP_Cheer"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 1.png"
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 3,
+        "iStateIndex": 2,
+        "m_strFirstSentence": "{PatientName}{PatientTitle}, the doctor just examined you and confirmed that you have cataracts. Have you noticed your vision looking hazy lately, like looking through frosted glass, or do lights seem to spread out and glare at night?",
+        "m_strStateName": "Greeting 2",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_BA_Nodhead",
+        "sStateType": "Conversation",
+        "vSmallMotion": [
+            "666_BA_ArmSCircle",
+            "666_BA_ArmSSquare",
+            "666_BA_RArmCircleL",
+            "666_BA_RArmCircleR"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 2.png"
+    },
+    {
+        "iDurationLimitSeconds": 38,
+        "iNextStateIndex": 4,
+        "iStateIndex": 3,
+        "m_strFirstSentence": "These are all typical symptoms of cataracts. Cataract surgery is currently the only effective way to improve vision. The procedure takes about 10 to 15 minutes, is usually done under local anesthesia, and you can return for a follow-up the next day. The surgical risk is relatively low, but complications such as infection, inflammation, or retinal detachment are still possible. After surgery, you'll need to follow your doctor's instructions, use eye drops on schedule, and avoid strenuous activity to help the wound heal. Next, I'll introduce you to lens surgery.",
+        "m_strStateName": "Greeting 3",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_BA_ArmSSquare",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_BA_ArmSCircle",
+            "666_BA_ArmSSquare",
+            "666_BA_RArmCircleL",
+            "666_BA_RArmCircleR"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 3.png"
+    },
+    {
+        "iDurationLimitSeconds": 31,
+        "iNextStateIndex": 5,
+        "iStateIndex": 4,
+        "m_strFirstSentence": "There are two main types of cataract surgery: phacoemulsification (ultrasound) and femtosecond laser-assisted surgery. The femtosecond laser can help complete some of the more delicate steps, such as the incision and pre-treatment of the lens, but both methods ultimately remove the cataract and insert an artificial lens using the same principle. Although the femtosecond laser offers higher precision, it is not covered by National Health Insurance and requires an out-of-pocket fee.",
+        "m_strStateName": "Laser comparison",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_BA_ArmSSquare",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_BA_ArmSCircle",
+            "666_BA_ArmSSquare",
+            "666_BA_RArmCircleL",
+            "666_BA_RArmCircleR"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 4.png"
+    },
+    {
+        "iDurationLimitSeconds": 56,
+        "iNextStateIndex": 6,
+        "iStateIndex": 5,
+        "m_strFirstSentence": "Before surgery, you'll need to decide whether to keep your nearsightedness. Everyday viewing distances can generally be divided into: far distance for driving and outdoor activities; medium distance, around 50–75 cm, for using a computer or cooking; and near distance, around 30 cm, for reading or using your phone. After cataract surgery, your eye will no longer have any focusing ability — instead, the power of the implanted lens determines which distance you can see clearly. If you choose a monofocal artificial lens, one focal range will be clearest, while the other two distances will require glasses. Choosing a multifocal lens means you won't need glasses and can adapt to different distances, but you should still watch for nighttime glare, and your eyes should be free of other conditions for the lens to work best.",
+        "m_strStateName": "keep nearsightedness or not",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_BA_ArmSSquare",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_BA_ArmSCircle",
+            "666_BA_ArmSSquare",
+            "666_BA_RArmCircleL",
+            "666_BA_RArmCircleR"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 5.png"
+    },
+    {
+        "iDurationLimitSeconds": 27,
+        "iNextStateIndex": 7,
+        "iStateIndex": 6,
+        "m_strFirstSentence": "Let me help you sort out the differences between the lens types. Simply put, an artificial lens is like buying glasses: a monofocal lens can only be set to see far 'or' near, while multifocal and trifocal lenses essentially build reading glasses right into your eye. An extended depth-of-focus lens lets you see the middle distance most naturally. These options differ quite a bit in terms of lifestyle fit and cost.",
+        "m_strStateName": "Visualized Lens Comparison",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_BA_ArmSCircle",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_BA_Nodhead",
+            "666_SA_Think",
+            "666_BA_RArmCircleL"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 6.png"
+    },
+    {
+        "iDurationLimitSeconds": 40,
+        "iNextStateIndex": 8,
+        "iStateIndex": 7,
+        "m_strFirstSentence": "You can choose based on what you do most often in daily life. If you frequently cook, play cards, or use a computer, an extended depth-of-focus lens offers the most comfortable visual quality. If you'd like to see your phone and computer clearly without needing glasses, a trifocal or multifocal lens would be more convenient. Also, if you often drive at night, an aspheric or extended depth-of-focus lens is recommended, since they reduce nighttime glare and make the road safer to see. Now that you've heard all this, do you have a preference in mind?",
+        "m_strStateName": "Lifestyle Selection Guide",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_BA_ArmSSquare",
+            "666_BA_RArmCircleR"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "yes",
+            "I do",
+            "I have one"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 7.png"
+    },
+    {
+        "iDurationLimitSeconds": 55,
+        "iNextStateIndex": 9,
+        "iStateIndex": 8,
+        "m_strFirstSentence": "Let me show you the estimated costs for surgery and lenses. National Health Insurance covers the most basic monofocal spherical lens, but it only provides clear distance vision — you'll still need glasses for near distance. A multifocal lens, which covers both near and far distance, costs about NT$60,000. An extended depth-of-focus lens for mid-to-far distance costs about NT$75,000. If you want to cover far, mid, and near distance vision all at once, you can choose a trifocal lens at your own expense, costing about NT$85,000 to NT$100,000. For patients with astigmatism, you can add an astigmatism-correcting option, such as toric or extended depth-of-focus toric lenses. Costs vary depending on the surgical method — femtosecond laser or ultrasound phacoemulsification — and the type of lens, so it's best to discuss the option that suits you with your attending physician.",
+        "m_strStateName": "laser price",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_BA_ArmSCircle",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_BA_Nodhead",
+            "666_SA_Think",
+            "666_BA_RArmCircleL"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/price.png"
+    },
+    {
+        "iDurationLimitSeconds": 40,
+        "iNextStateIndex": 10,
+        "iStateIndex": 9,
+        "m_strFirstSentence": "Multifocal lenses may also cause some side effects after surgery. Some patients, especially at night, may notice halos spreading around lights, circular rings of light around a light source, or rays of light radiating outward. These effects vary from person to person, and most patients gradually adjust within 3 to 6 months. If you drive at night, it's recommended to discuss this thoroughly with your doctor before surgery to choose the lens best suited to your lifestyle. ",
+        "m_strStateName": "laser sequence",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_BA_ArmSCircle",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_BA_Nodhead",
+            "666_SA_Think",
+            "666_BA_RArmCircleL"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/sequence.png"
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 11,
+        "iStateIndex": 10,
+        "m_strFirstSentence": "Next, let's play a little quiz to check your understanding of how the lenses work.",
+        "m_strStateName": "Question about preop care",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "KeepSilentOff",
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 10.png"
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 12,
+        "iStateIndex": 11,
+        "m_strFirstSentence": "Question 1: If you choose a 'monofocal' lens, and your distance vision is clear, will you need to wear reading glasses to use your phone or read a book?",
+        "m_strStateName": "Quiz Q1 - Vision Scope",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_BA_Nodhead",
+        "sStateType": "Conversation",
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 11.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "need",
+                    "yes"
+                ],
+                "TargetStateIndex": 50
+            }
+        ],
+        "WrongAnswerStateIndex": 47
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 13,
+        "iStateIndex": 12,
+        "m_strFirstSentence": "Question 2: If you enjoy cooking or using a computer often, that falls under 'mid distance.' Which type of lens provides more natural, continuous vision at mid distance?",
+        "m_strStateName": "Quiz Q2 - Mid distance",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "Conversation",
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 12.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "extended depth of focus",
+                    "EDOF lens"
+                ],
+                "TargetStateIndex": 51
+            }
+        ],
+        "WrongAnswerStateIndex": 48
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 14,
+        "iStateIndex": 13,
+        "m_strFirstSentence": "Question 3: If after surgery you'd prefer not to wear glasses 'most of the time,' whether driving, using a computer, or using your phone, which type of lens would suit you best?",
+        "m_strStateName": "Quiz Q3 - Comprehensive Vision",
+        "m_strSystemMessage": "",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "Conversation",
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 13.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "trifocal",
+                    "multifocal"
+                ],
+                "TargetStateIndex": 52
+            }
+        ],
+        "WrongAnswerStateIndex": 49
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 15,
+        "iStateIndex": 14,
+        "m_strFirstSentence": "Great! You now have a clear understanding of the differences between the lenses. Finally, let's go over what to keep in mind before and after surgery.",
+        "m_strStateName": "Transition to Postop",
+        "m_strSystemMessage": "",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 14.png"
+    },
+    {
+        "iDurationLimitSeconds": 7,
+        "iNextStateIndex": 16,
+        "iStateIndex": 15,
+        "m_strFirstSentence": "Next, please watch this pre-surgery health education video.",
+        "m_strStateName": "Introduce preop care",
+        "m_strSystemMessage": "",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_BA_RHandR03",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_BA_ArmSCircle",
+            "666_BA_ArmSSquare",
+            "666_BA_RArmCircleL",
+            "666_BA_RArmCircleR"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": ""
+    },
+    {
+        "iDurationLimitSeconds": 99,
+        "iNextStateIndex": 17,
+        "iStateIndex": 16,
+        "m_strFirstSentence": "",
+        "m_strStateName": "Introduce preop care",
+        "m_strSystemMessage": "",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "PlayVideo",
+        "vSmallMotion": [
+            "666_BA_ArmSCircle",
+            "666_BA_ArmSSquare",
+            "666_BA_RArmCircleL",
+            "666_BA_RArmCircleR"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "KeepSilent",
+            "PlayVideo:Videos/Cataract_Preop.mp4",
+            "AccumulateConversation",
+            "InsertAssitantMessage:Point 1: Please get enough sleep the night before surgery. This helps keep your body and eyes well-rested before the procedure, which supports a smoother surgery. Point 2: Please prepare your surgery-related documents and health insurance card. On the day of surgery, remember to bring your health insurance card, surgical consent form, and other related documents, so the medical staff can process your paperwork more smoothly and avoid the hassle of looking for documents at the last minute. Point 3: Please wear light, comfortable clothing on the day of surgery. Choose loose, easy-to-change clothing, which will make things more convenient and comfortable during surgery and when changing clothes. Point 4: Do not wear any jewelry before surgery. This includes necklaces, earrings, bracelets, and so on, to avoid inconvenience during the procedure and to help ensure the surgery is safe and goes smoothly. Point 5: Do not touch anything during the procedure without reason. Please avoid touching areas that have already been disinfected during the surgery. This is because the nurse will have carefully disinfected the relevant area beforehand — if you touch it during the procedure, it will need to be disinfected again, which increases the risk of infection and extends the length of the surgery, so please be patient and avoid touching it. Point 6: After surgery, please go to the medication counter. After resting, please head to the medication counter, where the nursing staff will prepare your post-surgery medication and explain the post-surgery care instructions in detail, so you know exactly how to take care of yourself afterward."
+        ],
+        "sImageFileName": ""
+    },
+    {
+        "iDurationLimitSeconds": 20,
+        "iNextStateIndex": 18,
+        "iStateIndex": 17,
+        "m_strFirstSentence": "Now that you've finished watching the video, let's go through five quick questions to make sure you remember what to keep in mind before surgery. Say \"okay\" when you're ready.",
+        "m_strStateName": "Preop Quiz Intro",
+        "m_strSystemMessage": "",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SA_Think",
+        "sStateType": "RobotAskPatientAnswer",
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "okay",
+            "ready",
+            "I'm ready",
+            "sure"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": ""
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 19,
+        "iStateIndex": 18,
+        "m_strFirstSentence": "Question 1: What is the most important thing to prepare the day before surgery?",
+        "m_strStateName": "Preop Quiz Q1 - Sleep",
+        "m_strSystemMessage": "",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_BA_Nodhead",
+        "sStateType": "RobotAskPatientAnswer",
+        "vSmallMotion": [
+            "666_SA_Think"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "enough sleep",
+            "sleep well",
+            "get plenty of rest",
+            "rest"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 18.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "enough sleep",
+                    "sleep well",
+                    "get plenty of rest",
+                    "rest"
+                ],
+                "TargetStateIndex": 53
+            }
+        ],
+        "WrongAnswerStateIndex": 37
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 20,
+        "iStateIndex": 19,
+        "m_strFirstSentence": "Question 2: What important items should you remember to bring on the day of surgery to complete the paperwork?",
+        "m_strStateName": "Preop Quiz Q2 - Documents",
+        "m_strSystemMessage": "",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "RobotAskPatientAnswer",
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "health insurance card",
+            "surgical consent form",
+            "related documents",
+            "documents"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 19.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "health insurance card",
+                    "surgical consent form",
+                    "related documents",
+                    "documents"
+                ],
+                "TargetStateIndex": 54
+            }
+        ],
+        "WrongAnswerStateIndex": 38
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 21,
+        "iStateIndex": 20,
+        "m_strFirstSentence": "Question 3: What kind of clothing is recommended for the day of surgery for convenience?",
+        "m_strStateName": "Preop Quiz Q3 - Clothing",
+        "m_strSystemMessage": "",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_BA_Nodhead",
+        "sStateType": "RobotAskPatientAnswer",
+        "vSmallMotion": [
+            "666_SA_Think"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "light",
+            "loose",
+            "easy to change",
+            "easy to put on and take off"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 20.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "light",
+                    "loose",
+                    "easy to change",
+                    "easy to put on and take off"
+                ],
+                "TargetStateIndex": 55
+            }
+        ],
+        "WrongAnswerStateIndex": 39
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 22,
+        "iStateIndex": 21,
+        "m_strFirstSentence": "Question 4: Can you wear a necklace, earrings, or bracelet before surgery?",
+        "m_strStateName": "Preop Quiz Q4 - No Jewelry",
+        "m_strSystemMessage": "",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "RobotAskPatientAnswer",
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "no",
+            "cannot",
+            "not allowed",
+            "shouldn't"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 21.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "no",
+                    "cannot",
+                    "not allowed",
+                    "shouldn't"
+                ],
+                "TargetStateIndex": 56
+            }
+        ],
+        "WrongAnswerStateIndex": 40
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 23,
+        "iStateIndex": 22,
+        "m_strFirstSentence": "Question 5: Where should you usually go after surgery to pick up your medication and hear the nurse's care instructions?",
+        "m_strStateName": "Preop Quiz Q5 - Pharmacy Counter",
+        "m_strSystemMessage": "",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "RobotAskPatientAnswer",
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "medication counter",
+            "pick up medication",
+            "pharmacy",
+            "medication window"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 22.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "medication counter",
+                    "pick up medication",
+                    "pharmacy",
+                    "medication window"
+                ],
+                "TargetStateIndex": 57
+            }
+        ],
+        "WrongAnswerStateIndex": 41
+    },
+    {
+        "iDurationLimitSeconds": 100,
+        "iNextStateIndex": 24,
+        "iStateIndex": 23,
+        "m_strFirstSentence": "Do you have any questions about the content?",
+        "m_strStateName": "Question about preop care",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SA_Think",
+        "sStateType": "Conversation",
+        "vSmallMotion": [],
+        "v_str_KeyWordMoveToNextState": [
+            "no",
+            "no questions"
+        ],
+        "v_str_Action": [
+            "KeepSilentOff",
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 23.png"
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 25,
+        "iStateIndex": 24,
+        "m_strFirstSentence": "Well done! You've got a good grasp of the key points before surgery. If you have any more questions, I'm happy to explain further.",
+        "m_strStateName": "Preop Quiz End",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/stat 23.png"
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 26,
+        "iStateIndex": 25,
+        "m_strFirstSentence": "Next, please watch this post-surgery health education video.",
+        "m_strStateName": "Play postop health care video",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_BA_ArmSCircle",
+            "666_BA_ArmSSquare",
+            "666_BA_RArmCircleL",
+            "666_BA_RArmCircleR"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [],
+        "sImageFileName": "Images/state 25.png"
+    },
+    {
+        "iDurationLimitSeconds": 129,
+        "iNextStateIndex": 27,
+        "iStateIndex": 26,
+        "m_strFirstSentence": "",
+        "m_strStateName": "Play postop health care video",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "PlayVideo",
+        "vSmallMotion": [
+            "666_BA_ArmSCircle",
+            "666_BA_ArmSSquare",
+            "666_BA_RArmCircleL",
+            "666_BA_RArmCircleR"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "KeepSilent",
+            "PlayVideo:Videos/Cataract_Postop.mp4",
+            "AccumulateConversation",
+            "InsertAssitantMessage:Post-surgery care instructions for cataract surgery. Point 1: No eye drops are needed while the eye is covered with gauze. After surgery on the day of the procedure, your eye will be covered with gauze, so no eye drops are needed that day — just start using the eye drops at the time your doctor instructs. Point 2: Bring the medications prescribed on the day of surgery to your follow-up visit. At your follow-up visit the next day, please bring the medications your doctor prescribed on the day of surgery, such as eye drops, ointment, an eye shield, or a care kit, so the doctor can check them before you start using the eye drops as instructed. Point 3: Light sensitivity, tearing, and mild localized stinging are normal. If you feel more sensitive to light, have tearing, or experience mild stinging in your eye after surgery, these are actually normal post-surgery symptoms. As long as you follow your doctor's care instructions, these symptoms will usually gradually improve, so there's no need to worry too much. Point 4: If you experience any discomfort, return to the clinic or go to the emergency room right away. If after surgery you notice a sudden, significant decrease in vision, unusual pain, redness, heavy bleeding, or abnormal discharge, please return to the clinic or go to the emergency room for treatment immediately. Point 5: Rest in bed as much as possible and avoid risky movements. On the day of surgery, please rest in bed as much as possible and avoid any risky movements that could put pressure on the eye, such as coughing forcefully, bending over, lifting heavy objects, or strenuous exercise, to avoid affecting wound healing. Point 6: Maintain a regular routine and take your medications on schedule. Please maintain a regular daily routine after surgery, keep your schedule stable, avoid overexertion, and take all prescribed medications on schedule as instructed by your doctor. Point 7: Avoid getting water in your eye, and avoid swimming and strenuous exercise for one month. Within one month after surgery, please avoid letting your eye come into contact with water, and avoid swimming and any strenuous exercise, to ensure the safety of your eye. Point 8: Wear the eye shield for one month, both day and night. Within one month after surgery, please wear the eye shield all day, every day, including while sleeping, to ensure the safety and protection of your eye."
+        ],
+        "sImageFileName": ""
+    },
+    {
+        "iDurationLimitSeconds": 20,
+        "iNextStateIndex": 28,
+        "iStateIndex": 27,
+        "m_strFirstSentence": "Now that you've finished watching the video, let's go through five more quick questions to check your understanding of post-surgery care. Say \"okay\" when you're ready.",
+        "m_strStateName": "Postop Quiz Intro",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SA_Think",
+        "sStateType": "RobotAskPatientAnswer",
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "okay",
+            "ready",
+            "I'm ready",
+            "sure"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 27.png"
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 29,
+        "iStateIndex": 28,
+        "m_strFirstSentence": "Question 1: If your eye is covered with gauze on the day of surgery, can you apply eye drops right away?",
+        "m_strStateName": "Postop Quiz Q1 - No Drops With Gauze",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_BA_Nodhead",
+        "sStateType": "RobotAskPatientAnswer",
+        "vSmallMotion": [
+            "666_SA_Think"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "no need",
+            "not necessary",
+            "don't need to"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 28.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "no need",
+                    "not necessary",
+                    "don't need to"
+                ],
+                "TargetStateIndex": 58
+            }
+        ],
+        "WrongAnswerStateIndex": 42
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 30,
+        "iStateIndex": 29,
+        "m_strFirstSentence": "Question 2: What should you bring to your follow-up visit the next day for the doctor to check before you start using it?",
+        "m_strStateName": "Postop Quiz Q2 - Bring Meds",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "RobotAskPatientAnswer",
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "medication",
+            "eye drops",
+            "ointment",
+            "eye shield",
+            "care kit"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 29.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "medication",
+                    "eye drops",
+                    "ointment",
+                    "eye shield",
+                    "care kit"
+                ],
+                "TargetStateIndex": 59
+            }
+        ],
+        "WrongAnswerStateIndex": 43
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 31,
+        "iStateIndex": 30,
+        "m_strFirstSentence": "Question 3: Is it normal to experience light sensitivity, tearing, or mild stinging after surgery?",
+        "m_strStateName": "Postop Quiz Q3 - Normal Symptoms",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_BA_Nodhead",
+        "sStateType": "RobotAskPatientAnswer",
+        "vSmallMotion": [
+            "666_SA_Think"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "yes",
+            "normal",
+            "considered normal",
+            "correct"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 30.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "yes",
+                    "normal",
+                    "considered normal",
+                    "correct"
+                ],
+                "TargetStateIndex": 60
+            }
+        ],
+        "WrongAnswerStateIndex": 44
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 32,
+        "iStateIndex": 31,
+        "m_strFirstSentence": "Question 4: If any of the following symptoms occur after surgery, you should return to the clinic or go to the emergency room right away. Please name just one.",
+        "m_strStateName": "Postop Quiz Q4 - Red Flags",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "RobotAskPatientAnswer",
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "sudden vision loss",
+            "decreased vision",
+            "unusual pain",
+            "red eye",
+            "heavy bleeding",
+            "discharge"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 31.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "sudden vision loss",
+                    "decreased vision",
+                    "unusual pain",
+                    "red eye",
+                    "heavy bleeding",
+                    "discharge"
+                ],
+                "TargetStateIndex": 61
+            }
+        ],
+        "WrongAnswerStateIndex": 45
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 33,
+        "iStateIndex": 32,
+        "m_strFirstSentence": "Question 5: How long should you avoid getting water in your eye, and avoid swimming or strenuous exercise after surgery?",
+        "m_strStateName": "Postop Quiz Q5 - No Water One Month",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "RobotAskPatientAnswer",
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "one month",
+            "1 month",
+            "four weeks",
+            "4 weeks"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 32.png",
+        "Branches": [
+            {
+                "Keywords": [
+                    "one month",
+                    "1 month",
+                    "four weeks",
+                    "4 weeks"
+                ],
+                "TargetStateIndex": 62
+            }
+        ],
+        "WrongAnswerStateIndex": 46
+    },
+    {
+        "iDurationLimitSeconds": 10,
+        "iNextStateIndex": 34,
+        "iStateIndex": 33,
+        "m_strFirstSentence": "Great! You also remember the key points of post-surgery care very well. If you have any questions, feel free to ask me directly.",
+        "m_strStateName": "Postop Quiz End",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_BA_Nodhead"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 34.png"
+    },
+    {
+        "iDurationLimitSeconds": 999,
+        "iNextStateIndex": 35,
+        "iStateIndex": 34,
+        "m_strFirstSentence": "Do you have any questions?",
+        "m_strStateName": "Q&A",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SA_Think",
+        "sStateType": "Conversation",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [
+            "no",
+            "no questions"
+        ],
+        "v_str_Action": [
+            "KeepSilentOff",
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 34.png"
+    },
+    {
+        "iDurationLimitSeconds": 100,
+        "iNextStateIndex": 36,
+        "iStateIndex": 35,
+        "m_strFirstSentence": "Alright, that concludes today's health education session. I wish you a smooth surgery and a speedy recovery! If you have any questions, feel free to come find me anytime!",
+        "m_strStateName": "Ending and Goodbye",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "RobotAskPatientAnswer",
+        "vSmallMotion": [],
+        "v_str_KeyWordMoveToNextState": [
+            "okay",
+            "goodbye",
+            "thank you"
+        ],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 35.png"
+    },
+    {
+        "iDurationLimitSeconds": 100,
+        "iNextStateIndex": 36,
+        "iStateIndex": 36,
+        "m_strFirstSentence": "Goodbye!",
+        "m_strStateName": "Goodbye",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_RE_Bye",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 36.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 19,
+        "iStateIndex": 37,
+        "m_strFirstSentence": "Unfortunately, that's not correct. The correct answer is: you should get plenty of sleep the night before surgery, so your body and eyes are well-rested — this helps the surgery go more smoothly.",
+        "m_strStateName": "Preop Quiz Q1 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 18.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 20,
+        "iStateIndex": 38,
+        "m_strFirstSentence": "The correct answer is: on the day of surgery, remember to bring your National Health Insurance card and the surgical consent form, along with other related documents, so the medical staff can process your paperwork smoothly.",
+        "m_strStateName": "Preop Quiz Q2 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 19.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 21,
+        "iStateIndex": 39,
+        "m_strFirstSentence": "The correct answer is: on the day of surgery, it's recommended to wear light, loose, easy-to-change clothing, which makes things more convenient and comfortable during surgery and when changing.",
+        "m_strStateName": "Preop Quiz Q3 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 20.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 22,
+        "iStateIndex": 40,
+        "m_strFirstSentence": "The correct answer is: you should not wear a necklace, earrings, bracelet, or other jewelry before surgery, to ensure the surgery is safe and goes smoothly.",
+        "m_strStateName": "Preop Quiz Q4 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 21.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 23,
+        "iStateIndex": 41,
+        "m_strFirstSentence": "The correct answer is: after surgery, please go to the medication counter to pick up your medication, where the nursing staff will also explain the post-surgery care instructions in detail.",
+        "m_strStateName": "Preop Quiz Q5 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 22.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 29,
+        "iStateIndex": 42,
+        "m_strFirstSentence": "The correct answer is: you don't need to apply eye drops while your eye is covered with gauze — just start using the eye drops according to the schedule your doctor gives you.",
+        "m_strStateName": "Postop Quiz Q1 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 28.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 30,
+        "iStateIndex": 43,
+        "m_strFirstSentence": "The correct answer is: at your follow-up visit the next day, please bring the medications your doctor prescribed on the day of surgery, such as eye drops, ointment, eye shield, or care kit, so the doctor can check them before you start using them.",
+        "m_strStateName": "Postop Quiz Q2 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 29.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 31,
+        "iStateIndex": 44,
+        "m_strFirstSentence": "The correct answer is: light sensitivity, tearing, or mild stinging after surgery are actually normal, and they usually improve gradually as long as you follow your doctor's care instructions.",
+        "m_strStateName": "Postop Quiz Q3 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 30.png"
+    },
+    {
+        "iDurationLimitSeconds": 14,
+        "iNextStateIndex": 32,
+        "iStateIndex": 45,
+        "m_strFirstSentence": "The correct answer is: if you experience a sudden decrease in vision, unusual pain, redness, heavy bleeding, or abnormal discharge after surgery, please return to the clinic or go to the emergency room immediately.",
+        "m_strStateName": "Postop Quiz Q4 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 31.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 33,
+        "iStateIndex": 46,
+        "m_strFirstSentence": "The correct answer is: within one month after surgery, you should not get water in your eye, and you should also avoid swimming and strenuous exercise to keep your eye safe.",
+        "m_strStateName": "Postop Quiz Q5 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 32.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 12,
+        "iStateIndex": 47,
+        "m_strFirstSentence": "The correct answer is: yes, you would. A monofocal lens can only focus at one distance, which is usually set for clear distance vision, so for near-distance tasks like using your phone or reading, you would still need reading glasses.",
+        "m_strStateName": "Lens Quiz Q1 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 11.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 13,
+        "iStateIndex": 48,
+        "m_strFirstSentence": "The correct answer is: an extended depth-of-focus lens. This type of lens provides more continuous, natural vision at mid distance, making it well suited for everyday tasks like cooking or using a computer.",
+        "m_strStateName": "Lens Quiz Q2 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 12.png"
+    },
+    {
+        "iDurationLimitSeconds": 12,
+        "iNextStateIndex": 14,
+        "iStateIndex": 49,
+        "m_strFirstSentence": "The correct answer is: a trifocal or multifocal lens. This type of lens covers far, mid, and near distance vision at the same time, so you won't need glasses most of the time.",
+        "m_strStateName": "Lens Quiz Q3 Wrong Answer Explain",
+        "sFace": "TTS_PeaceB",
+        "sMotion": "666_SA_Think",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 13.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 12,
+        "iStateIndex": 50,
+        "m_strFirstSentence": "Great job, you got it right!",
+        "m_strStateName": "Quiz Q1 - Vision Scope - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 11.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 13,
+        "iStateIndex": 51,
+        "m_strFirstSentence": "Great job, you got it right!",
+        "m_strStateName": "Quiz Q2 - Mid distance - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 12.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 14,
+        "iStateIndex": 52,
+        "m_strFirstSentence": "Great job, you got it right!",
+        "m_strStateName": "Quiz Q3 - Comprehensive Vision - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 13.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 19,
+        "iStateIndex": 53,
+        "m_strFirstSentence": "Great job, you got it right!",
+        "m_strStateName": "Preop Quiz Q1 - Sleep - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 18.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 20,
+        "iStateIndex": 54,
+        "m_strFirstSentence": "Great job, you got it right!",
+        "m_strStateName": "Preop Quiz Q2 - Documents - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 19.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 21,
+        "iStateIndex": 55,
+        "m_strFirstSentence": "Great job, you got it right!",
+        "m_strStateName": "Preop Quiz Q3 - Clothing - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 20.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 22,
+        "iStateIndex": 56,
+        "m_strFirstSentence": "Great job, you got it right!",
+        "m_strStateName": "Preop Quiz Q4 - No Jewelry - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 21.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 23,
+        "iStateIndex": 57,
+        "m_strFirstSentence": "Great job, you got it right!",
+        "m_strStateName": "Preop Quiz Q5 - Pharmacy Counter - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 22.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 29,
+        "iStateIndex": 58,
+        "m_strFirstSentence": "Great job, you got it right!",
+        "m_strStateName": "Postop Quiz Q1 - No Drops With Gauze - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 28.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 30,
+        "iStateIndex": 59,
+        "m_strFirstSentence": "Great job, you got it right!",
+        "m_strStateName": "Postop Quiz Q2 - Bring Meds - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 29.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 31,
+        "iStateIndex": 60,
+        "m_strFirstSentence": "Great job, you got it right!",
+        "m_strStateName": "Postop Quiz Q3 - Normal Symptoms - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 30.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 32,
+        "iStateIndex": 61,
+        "m_strFirstSentence": "Great job, you got it right!",
+        "m_strStateName": "Postop Quiz Q4 - Red Flags - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 31.png"
+    },
+    {
+        "iDurationLimitSeconds": 6,
+        "iNextStateIndex": 33,
+        "iStateIndex": 62,
+        "m_strFirstSentence": "Great job, you got it right!",
+        "m_strStateName": "Postop Quiz Q5 - No Water One Month - Correct Praise",
+        "sFace": "TTS_PeaceA",
+        "sMotion": "666_SP_Cheer",
+        "sStateType": "SaySomething",
+        "vSmallMotion": [
+            "666_DA_Brushteeth",
+            "666_TA_DictateL",
+            "666_TA_LookLR",
+            "666_TA_Roar"
+        ],
+        "v_str_KeyWordMoveToNextState": [],
+        "v_str_Action": [
+            "AccumulateConversation"
+        ],
+        "sImageFileName": "Images/state 32.png"
+    }
+]
